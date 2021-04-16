@@ -1,0 +1,28 @@
+{
+    "name": "guillonaxel/gedem77",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Guillonaxel0714",
+            "email": "guillonaxel0714@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.7.1",
+        "wpackagist-theme/twentyseventeen":"2.6",
+        "wpackagist-plugin/akismet":"4.1.9"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}": ["type:wordpress-plugin"],
+            "content/themes/{$name}": ["type:wordpress-theme"]
+        }
+    }
+}

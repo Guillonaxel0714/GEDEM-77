@@ -1,0 +1,12 @@
+# On active le module Apache de réécriture d'URL
+RewriteEngine on
+# On applique la réécriture uniquement pour les URLs qui ne contiennent pas /wp
+RewriteCond %{REQUEST_URI} !^wp/
+# On exclue, de la réécriture, les fichiers existants physiquement sur le serveur
+RewriteCond %{REQUEST_FILENAME} !-f
+# On exclue, de la réécriture, les repertoires existants physiquement sur le serveur
+RewriteCond %{REQUEST_FILENAME} !-d
+# On redirige tout vers index.php
+# Si toutes les RewriteCond ci-dessus sont vérifiées, on applique la règle de réécriture
+RewriteRule ^(.*)$ index.php/$1
+
