@@ -1,0 +1,183 @@
+[16-Apr-2021 14:41:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'site_nav' not found or invalid function name in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php on line 292
+[16-Apr-2021 14:41:36 UTC] PHP Stack trace:
+[16-Apr-2021 14:41:36 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\nav-menus.php:0
+[16-Apr-2021 14:41:36 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\nav-menus.php:13
+[16-Apr-2021 14:41:36 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[16-Apr-2021 14:41:36 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[16-Apr-2021 14:41:36 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:123
+[16-Apr-2021 14:41:36 UTC] PHP   6. do_action() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:560
+[16-Apr-2021 14:41:36 UTC] PHP   7. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[16-Apr-2021 14:41:36 UTC] PHP   8. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 13:17:56 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[20-Apr-2021 13:18:06 UTC] PHP Warning:  sprintf(): Too few arguments in C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php on line 110
+[20-Apr-2021 13:18:06 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:06 UTC] PHP   3. do_action() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:175
+[20-Apr-2021 13:18:06 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 13:18:06 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 13:18:06 UTC] PHP   6. Tribe__Settings->initTabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:06 UTC] PHP   7. do_action() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings.php:308
+[20-Apr-2021 13:18:06 UTC] PHP   8. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 13:18:06 UTC] PHP   9. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 13:18:06 UTC] PHP  10. Tribe__Settings_Manager->do_setting_tabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:06 UTC] PHP  11. include_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings_Manager.php:76
+[20-Apr-2021 13:18:06 UTC] PHP  12. apply_filters() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\admin-views\tribe-options-display.php:18
+[20-Apr-2021 13:18:06 UTC] PHP  13. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:212
+[20-Apr-2021 13:18:06 UTC] PHP  14. Tribe__Events__Main->display_settings_tab_fields() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:06 UTC] PHP  15. require_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\Tribe\Main.php:4749
+[20-Apr-2021 13:18:06 UTC] PHP  16. sprintf() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110
+[20-Apr-2021 13:18:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php on line 9
+[20-Apr-2021 13:18:06 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:06 UTC] PHP   4. header() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:9
+[20-Apr-2021 13:18:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1051
+[20-Apr-2021 13:18:06 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:06 UTC] PHP   4. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 13:18:06 UTC] PHP   5. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1051
+[20-Apr-2021 13:18:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1052
+[20-Apr-2021 13:18:06 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:06 UTC] PHP   4. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 13:18:06 UTC] PHP   5. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1052
+[20-Apr-2021 13:18:32 UTC] PHP Warning:  sprintf(): Too few arguments in C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php on line 110
+[20-Apr-2021 13:18:32 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:32 UTC] PHP   3. do_action() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:175
+[20-Apr-2021 13:18:32 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 13:18:32 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 13:18:32 UTC] PHP   6. Tribe__Settings->initTabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:32 UTC] PHP   7. do_action() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings.php:308
+[20-Apr-2021 13:18:32 UTC] PHP   8. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 13:18:32 UTC] PHP   9. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 13:18:32 UTC] PHP  10. Tribe__Settings_Manager->do_setting_tabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:32 UTC] PHP  11. include_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings_Manager.php:76
+[20-Apr-2021 13:18:32 UTC] PHP  12. apply_filters() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\admin-views\tribe-options-display.php:18
+[20-Apr-2021 13:18:32 UTC] PHP  13. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:212
+[20-Apr-2021 13:18:32 UTC] PHP  14. Tribe__Events__Main->display_settings_tab_fields() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 13:18:32 UTC] PHP  15. require_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\Tribe\Main.php:4749
+[20-Apr-2021 13:18:32 UTC] PHP  16. sprintf() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110
+[20-Apr-2021 13:18:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php on line 9
+[20-Apr-2021 13:18:32 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:32 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:32 UTC] PHP   4. header() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:9
+[20-Apr-2021 13:18:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1051
+[20-Apr-2021 13:18:32 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:32 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:32 UTC] PHP   4. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 13:18:32 UTC] PHP   5. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1051
+[20-Apr-2021 13:18:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1052
+[20-Apr-2021 13:18:32 UTC] PHP Stack trace:
+[20-Apr-2021 13:18:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[20-Apr-2021 13:18:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[20-Apr-2021 13:18:32 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 13:18:32 UTC] PHP   4. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 13:18:32 UTC] PHP   5. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1052
+[20-Apr-2021 14:44:53 UTC] PHP Warning:  sprintf(): Too few arguments in C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php on line 110
+[20-Apr-2021 14:44:53 UTC] PHP Stack trace:
+[20-Apr-2021 14:44:53 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:0
+[20-Apr-2021 14:44:53 UTC] PHP   2. do_action() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:175
+[20-Apr-2021 14:44:53 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 14:44:53 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 14:44:53 UTC] PHP   5. Tribe__Settings->initTabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 14:44:53 UTC] PHP   6. do_action() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings.php:308
+[20-Apr-2021 14:44:53 UTC] PHP   7. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[20-Apr-2021 14:44:53 UTC] PHP   8. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[20-Apr-2021 14:44:53 UTC] PHP   9. Tribe__Settings_Manager->do_setting_tabs() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 14:44:53 UTC] PHP  10. include_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\Tribe\Settings_Manager.php:76
+[20-Apr-2021 14:44:53 UTC] PHP  11. apply_filters() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\common\src\admin-views\tribe-options-display.php:18
+[20-Apr-2021 14:44:53 UTC] PHP  12. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:212
+[20-Apr-2021 14:44:53 UTC] PHP  13. Tribe__Events__Main->display_settings_tab_fields() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[20-Apr-2021 14:44:53 UTC] PHP  14. require_once() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\Tribe\Main.php:4749
+[20-Apr-2021 14:44:53 UTC] PHP  15. sprintf() C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110
+[20-Apr-2021 14:44:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php on line 9
+[20-Apr-2021 14:44:53 UTC] PHP Stack trace:
+[20-Apr-2021 14:44:53 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:0
+[20-Apr-2021 14:44:53 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 14:44:53 UTC] PHP   3. header() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:9
+[20-Apr-2021 14:44:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1051
+[20-Apr-2021 14:44:53 UTC] PHP Stack trace:
+[20-Apr-2021 14:44:53 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:0
+[20-Apr-2021 14:44:53 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 14:44:53 UTC] PHP   3. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 14:44:53 UTC] PHP   4. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1051
+[20-Apr-2021 14:44:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\plugins\the-events-calendar\src\admin-views\tribe-options-display.php:110) in C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php on line 1052
+[20-Apr-2021 14:44:53 UTC] PHP Stack trace:
+[20-Apr-2021 14:44:53 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:0
+[20-Apr-2021 14:44:53 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:239
+[20-Apr-2021 14:44:53 UTC] PHP   3. wp_user_settings() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-header.php:70
+[20-Apr-2021 14:44:53 UTC] PHP   4. setcookie() C:\wamp64\www\GEDEM-77\wp\wp-includes\option.php:1052
+[21-Apr-2021 07:12:14 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[28-Apr-2021 07:44:32 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[31-May-2021 14:58:55 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[01-Jun-2021 12:24:05 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[07-Jun-2021 14:27:02 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[07-Jun-2021 15:00:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gedemTheme_title_separator' not found or invalid function name in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php on line 292
+[07-Jun-2021 15:00:23 UTC] PHP Stack trace:
+[07-Jun-2021 15:00:23 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\index.php:0
+[07-Jun-2021 15:00:23 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\index.php:4
+[07-Jun-2021 15:00:23 UTC] PHP   3. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[07-Jun-2021 15:00:23 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:19
+[07-Jun-2021 15:00:23 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php:106
+[07-Jun-2021 15:00:23 UTC] PHP   6. get_header() C:\wamp64\www\GEDEM-77\content\themes\gedem\index.php:3
+[07-Jun-2021 15:00:23 UTC] PHP   7. locate_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:48
+[07-Jun-2021 15:00:23 UTC] PHP   8. load_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:676
+[07-Jun-2021 15:00:23 UTC] PHP   9. require_once() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:730
+[07-Jun-2021 15:00:23 UTC] PHP  10. wp_head() C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php:24
+[07-Jun-2021 15:00:23 UTC] PHP  11. do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:3009
+[07-Jun-2021 15:00:23 UTC] PHP  12. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[07-Jun-2021 15:00:23 UTC] PHP  13. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[07-Jun-2021 15:00:23 UTC] PHP  14. _wp_render_title_tag() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[07-Jun-2021 15:00:23 UTC] PHP  15. wp_get_document_title() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:1261
+[07-Jun-2021 15:00:23 UTC] PHP  16. apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:1221
+[07-Jun-2021 15:00:23 UTC] PHP  17. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:212
+[14-Jun-2021 08:44:59 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[14-Jun-2021 09:37:37 UTC] PHP Notice:  wp_enqueue_style est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Cette notification a été déclenchée par <code>main-styles</code>. Veuillez lire <a href="https://fr.wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php on line 5313
+[14-Jun-2021 09:37:37 UTC] PHP Stack trace:
+[14-Jun-2021 09:37:37 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\index.php:0
+[14-Jun-2021 09:37:37 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\index.php:4
+[14-Jun-2021 09:37:37 UTC] PHP   3. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[14-Jun-2021 09:37:37 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:13
+[14-Jun-2021 09:37:37 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[14-Jun-2021 09:37:37 UTC] PHP   6. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:123
+[14-Jun-2021 09:37:37 UTC] PHP   7. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[14-Jun-2021 09:37:37 UTC] PHP   8. wp_enqueue_style() C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php:3
+[14-Jun-2021 09:37:37 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-styles.php:174
+[14-Jun-2021 09:37:37 UTC] PHP  10. _doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-scripts.php:67
+[14-Jun-2021 09:37:37 UTC] PHP  11. trigger_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php:5313
+[14-Jun-2021 09:37:38 UTC] PHP Notice:  wp_enqueue_style est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Cette notification a été déclenchée par <code>main-styles</code>. Veuillez lire <a href="https://fr.wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php on line 5313
+[14-Jun-2021 09:37:38 UTC] PHP Stack trace:
+[14-Jun-2021 09:37:38 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-cron.php:0
+[14-Jun-2021 09:37:38 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-cron.php:44
+[14-Jun-2021 09:37:38 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[14-Jun-2021 09:37:38 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:123
+[14-Jun-2021 09:37:38 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[14-Jun-2021 09:37:38 UTC] PHP   6. wp_enqueue_style() C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php:3
+[14-Jun-2021 09:37:38 UTC] PHP   7. _wp_scripts_maybe_doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-styles.php:174
+[14-Jun-2021 09:37:38 UTC] PHP   8. _doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-scripts.php:67
+[14-Jun-2021 09:37:38 UTC] PHP   9. trigger_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php:5313
+[14-Jun-2021 09:37:39 UTC] PHP Notice:  wp_enqueue_style est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Cette notification a été déclenchée par <code>main-styles</code>. Veuillez lire <a href="https://fr.wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php on line 5313
+[14-Jun-2021 09:37:39 UTC] PHP Stack trace:
+[14-Jun-2021 09:37:39 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\index.php:0
+[14-Jun-2021 09:37:39 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\index.php:4
+[14-Jun-2021 09:37:39 UTC] PHP   3. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[14-Jun-2021 09:37:39 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:13
+[14-Jun-2021 09:37:39 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[14-Jun-2021 09:37:39 UTC] PHP   6. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:123
+[14-Jun-2021 09:37:39 UTC] PHP   7. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[14-Jun-2021 09:37:39 UTC] PHP   8. wp_enqueue_style() C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php:3
+[14-Jun-2021 09:37:39 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-styles.php:174
+[14-Jun-2021 09:37:39 UTC] PHP  10. _doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-scripts.php:67
+[14-Jun-2021 09:37:39 UTC] PHP  11. trigger_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php:5313

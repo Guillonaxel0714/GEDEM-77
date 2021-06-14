@@ -1,6 +1,7 @@
 {
     "name": "guillonaxel/gedem77",
     "type": "project",
+    "description": "",
     "authors": [
         {
             "name": "Guillonaxel0714",
@@ -16,7 +17,9 @@
     "require": {
         "johnpbloch/wordpress": "^5.7.1",
         "wpackagist-theme/twentyseventeen":"2.6",
-        "wpackagist-plugin/akismet":"4.1.9"
+        "wpackagist-plugin/akismet":"4.1.9",
+        "wpackagist-plugin/the-events-calendar":"5.5.0",
+        "wpackagist-plugin/jetpack":"9.6.1"
     },
     "extra": {
         "wordpress-install-dir": "wp",
