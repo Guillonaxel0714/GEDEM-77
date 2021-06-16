@@ -1,0 +1,226 @@
+@import '../abstracts/variable.scss';
+@import '../abstracts/mixins.scss';
+
+header{
+    width: 100%;
+}
+
+.img_home{
+    height: 100vh;
+    padding-bottom: 50px;
+    background-image: url('../assets/bg-accueil.jpeg');
+    @include bg-placement(cover, center, no-repeat);
+    @include flex-el(flex, space-between, column, center, nowrap);
+
+    .title_home{
+        text-align: center;
+        margin: 0 20px;
+    }
+    h1{
+        font-size: $h1-size;
+        color: $color-white;
+    }
+    h2{
+        font-size: 4.5vh;
+        color: $color-white;
+        padding-top: 20px;
+    }
+    h4{
+        color: $color-white;
+        font-size: 3.5vh;
+        padding-top: 50px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.sct_about{
+    @include flex-el(flex, space-between, row, center, wrap);
+    margin-top: 100px;
+}
+
+.block1{
+    width: 50%;
+
+    .gedem{
+        color: $secondary-color;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 23%;
+    }
+}
+
+.about_img{
+    width: 50%;
+
+    .animation_loop{
+        width: 100%;
+    }
+}
+
+.icon{
+    @include flex-el(flex, center, row, center, nowrap);
+    margin: 50px 0;
+
+    i{
+        color: $main-color-blue;
+        font-size: 50px;
+        margin-right: 50px;
+    }
+
+    p{
+        width: 70%;
+        line-height: 25px;
+    }
+} 
+
+.objectifs{ 
+
+    .all_goals{
+        width: 100%;
+        max-width: 1500px;
+        background-image: url('../assets/recycle.png');
+        @include bg-placement(35%, center, no-repeat);
+        @include flex-el(flex, space-evenly, row, flex-start, wrap);
+        padding: 75px 0;
+        margin: 0 auto;
+
+        .goal{
+            width: 35%;
+            min-width: 300px;
+            text-align: center;
+            margin: 60px;
+            p:not(:last-child){
+                @extend %title-goal;
+            }
+
+            .title_goal_1::before{
+                @include title-goal-before-left;
+                height: 80%;
+                top: 0;
+            }
+
+            .title_goal_1::after{
+                @include title-goal-after-top;
+                width: 95%;
+                left: 0;
+            }
+            
+            .title_goal_2::before{
+                @include title-goal-before-right;
+                height: 80%;
+                top: 0;
+            }
+
+            .title_goal_2::after{
+                @include title-goal-after-top;
+                width: 95%;
+                right: 0;
+            }
+
+            .title_goal_3::before{
+                @include title-goal-before-left;
+                height: 80%;
+                bottom: 0;
+            }
+
+            .title_goal_3::after{
+                @include title-goal-after-bottom;
+                width: 95%;
+                left: 0;
+            }
+
+            .title_goal_4::before{
+                @include title-goal-before-right;
+                height: 80%;
+                bottom: 0;
+            }
+
+            .title_goal_4::after{
+                @include title-goal-after-bottom;
+                width: 95%;
+                right: 0;
+            }
+
+            .goal_txt{
+                line-height: 30px;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+.dates{
+    background-color: #F2F4F6;
+}
+
+@media screen and (max-width: 425px){
+
+    .icon{
+        flex-wrap: wrap;
+        align-items: stretch;
+
+        p{
+            width: 100%;
+        }
+
+        i{
+            margin: 25px auto;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+   
+    p{
+        font-size: $txt-size-small;
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .sct_about{
+        flex-direction: column;
+    }
+
+    .icon{
+        justify-content: center;
+    }
+
+    .block1{
+        width: 100%;
+    }
+
+    .about_img{
+        width: 100%;
+    }
+
+    h3{
+        font-size: $title-size-small;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    section{
+        padding: 30px !important;
+    }
+
+    .objectifs{
+
+        .all_goals{
+
+            .goal{
+                p:not(:last-child):after{
+                    @include title-goal-after-bottom;   
+                }
+            }
+        }
+    }   
+}
+
+@media only screen and (min-width: 1920px){
+    section{
+        padding: 80px 300px !important;
+    }
+}

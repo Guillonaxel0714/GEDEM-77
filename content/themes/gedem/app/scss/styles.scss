@@ -1,0 +1,53 @@
+@import 'pages/accueil.scss';
+@import 'pages/actualites.scss';
+@import 'pages/adherents.scss';
+@import 'pages/gouvernance.scss';
+@import 'pages/contact.scss';
+@import 'pages/legales.scss';
+@import 'pages/single-article';
+
+@import 'components/timeline.scss';
+@import 'components/to-the-top.scss';
+@import 'components/arrow-down.scss';
+@import 'components/cards_vice_presidence.scss';
+@import 'components/button.scss';
+@import 'components/test.scss';
+
+@import 'layout/footer.scss';
+@import 'layout/navbar.scss';
+@import 'layout/articles.scss';
+
+@import 'abstracts/variable.scss';
+@import 'abstracts/mixins.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: $main-color-blue;
+}
+
+section{
+    padding: $padding-section;
+    width: 100%
+}
+
+h3{
+    @include title-section($main-color-blue, $title-size, 15px 0);
+}
+
+h3::after{
+    @include title-section-after(125px, 3px, auto, 0, 0, 0);
+}
+
+

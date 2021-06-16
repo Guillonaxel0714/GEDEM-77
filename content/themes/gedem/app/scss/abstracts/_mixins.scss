@@ -1,0 +1,84 @@
+@import './variable.scss';
+
+@mixin title-section($main-blue, $font-size, $padding, $display: inline-block, $pos: relative) {
+    color: $main-blue;
+    font-size: $font-size;
+    padding: $padding;
+    display: $display;
+    position: $pos;
+}
+
+@mixin title-section-after($width, $height, $top, $right, $bottom, $left) {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: $height;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    background-color: $secondary-color;
+    z-index: 0;
+}
+
+@mixin flex-el($display, $justify, $direction, $align, $wrap) {
+    display: $display;
+    justify-content: $justify;
+    flex-direction: $direction;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin bg-placement($bg-size, $bg-position, $bg-repeat) {
+    background-size: $bg-size;
+    background-position: $bg-position;
+    background-repeat: $bg-repeat;
+}
+
+%title-goal {
+    text-transform: uppercase;
+    color: $main-color-blue;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+
+// BORDER TITLE GOALS SECTION - BEFORE AFTER 
+
+@mixin title-goal-after-bottom{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    background-color: $secondary-color;
+}
+
+@mixin title-goal-after-top{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 5%;
+    background-color: $secondary-color;
+}
+
+@mixin title-goal-before-left{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2%;
+    background-color: $secondary-color;
+}
+
+@mixin title-goal-before-right{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 2%;
+    background-color: $secondary-color;
+}
+
+
+
+

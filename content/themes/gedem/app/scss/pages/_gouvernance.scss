@@ -1,0 +1,187 @@
+@import '../abstracts/mixins.scss';
+@import '../abstracts/variable.scss';
+
+.img_intro{
+    width: 650px;
+    margin: 50px auto;
+    position: relative;
+
+    svg{
+        width: 75%;
+    }
+
+    span{
+        position: absolute;
+        color: $secondary-color;
+        top: 90px;
+        left: 210px;
+        font-size: 28px;
+    }
+
+    p{
+        position: absolute;
+        top: 140px;
+        left: 210px;
+        line-height: 25px;
+        font-size: 16px; 
+    }
+
+    svg{
+
+        polyline, circle, line{
+            opacity: 1;
+        }
+
+        .st3{
+            stroke-dasharray: 3600px;
+            stroke-dashoffset: 3600px;
+            animation: anim 3s ease forwards;
+        }
+
+        @keyframes anim {
+            to{
+                stroke-dashoffset: 0;
+            }
+        }
+
+        .st5{
+            stroke-dasharray: 3600px;
+            stroke-dashoffset: 3600px;
+            animation: anim 10s ease forwards;
+        }
+
+        circle{
+            animation: appear 1.5s ease-in forwards;
+        }
+
+        @keyframes appear {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.presidence{
+    display: flex;
+    align-items: center;
+
+    .presidence_txt{
+        min-width: 200px;
+        max-width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        flex: 1;
+
+        span{
+            font-size: 35px;
+            color: $main-color-blue;
+        }
+
+        div{
+            margin: 50px;
+            line-height: 30px;
+        }
+    }
+    .presidence_img{
+        min-width: 150px;
+        max-width: 400px;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        background-color: #bfd1e79c;
+        border-radius: 12px;
+        margin: 50px auto;
+        flex: 2;
+
+        img{
+            max-width: 100%;
+            border-radius: 12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+
+
+.sct-vice-presidence{
+    background: #F2F4F6;
+    position: relative;
+    z-index: 0;
+    h3{
+        margin: 0 auto;
+    }
+}
+
+.cards-vices-presidents{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .img_intro{
+        width: 600px;
+        margin: 50px auto;
+        position: relative;
+    
+        svg{
+            width: 75%;
+        }
+    }
+    .presidence{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 575px){
+    .img_intro{
+        span{
+            top: 80px;
+            left: 185px;
+        }
+        p{
+            width: 200px;
+            font-size: 12px;
+            line-height: 22px;
+            top: 115px;
+            left: 185px;
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .img_intro{
+        width: 500px;
+        margin: 50px auto;
+        position: relative;
+    
+        svg{
+            width: 75%;
+        }
+    
+        span{
+            font-size: 20px;
+            top: 70px;
+            left: 130px;
+        }
+    
+        p{
+            font-size: 12px;
+            top: 100px;
+            left: 130px;
+            line-height: 20px;
+            width: 250px;
+        }
+    
+    }
+}
+
+

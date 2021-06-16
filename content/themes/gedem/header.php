@@ -1,21 +1,93 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 7) & !(IE 8)]><!-->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset= "<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="description" content="">
-<meta name="author" content="">
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" /> 
+
 <?php wp_head(); ?>
 </head>
 <body>
+
+    <?php if ( is_front_page() ) : ?>
+        <div class="img_home"> 
+            <header class="header">
+                <nav>
+                    <div class="nav-img">
+                        <?php
+	        		    	if ( is_front_page() ) : ?>
+	        		    		<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
+
+                            <?php
+	        		    	else : ?>
+	        		    		<a href="<?php echo home_url(); ?>">
+	        		    			<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
+	        		    		</a>
+	        		        <?php
+	        		    	endif;
+	        		    ?>
+                    </div>
+
+                    <?php 
+                        wp_nav_menu([
+                            'theme_location' => 'header',
+                            'container' => false,
+                            'menu_class' => 'nav-links'
+                        ]) 
+                    ?>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </header> 
+            <div class="title_home">
+                <h1>GEDEM 77</h1>
+                <h2>GEstionnaires public des DEchets Ménagers</h2>
+                <h4 id="writter_txt">Adhérents</h4>
+            </div>
+            <a href="#about">
+                <div class="scroll_down"></div>
+            </a>
+        </div>     
+        <?php
+        else : ?>
+            <header class="header">
+                <nav>
+                    <div class="nav-img">
+                        <?php
+	        		    	if ( is_front_page() ) : ?>
+	        		    		<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
+
+                            <?php
+	        		    	else : ?>
+	        		    		<a href="<?php echo home_url(); ?>">
+	        		    			<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
+	        		    		</a>
+	        		        <?php
+	        		    	endif;
+	        		    ?>
+                    </div>
+
+                    <?php 
+                        wp_nav_menu([
+                            'theme_location' => 'header',
+                            'container' => false,
+                            'menu_class' => 'nav-links'
+                        ]) 
+                    ?>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </header> 
+        <?php
+        endif;
+    ?>
+
+    <a href="" class="return-to-top"><i class="fas fa-arrow-up"></i></a>
+

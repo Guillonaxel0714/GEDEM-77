@@ -1,18 +1,19 @@
 vendor
-wp
-wp-config.php
+/wp
+/wp-config.php
+
+/content/languages
 
 node_modules/
 
-content/languages
+/content/uploads
+/content/upgrade
+/content/debug.log
+/content/themes/twentySeventeen
 
-content/uploads
-content/upgrade
+/content/plugins/*
 
-content/themes/twentySeventeen
+/content/themes/gedem/assets/images
+/content/themes/gedem/assets/fonts
 
-content/plugins/*
-
-content/themes/gedem/assets/images/
-content/themes/gedem/assets/fonts/
 

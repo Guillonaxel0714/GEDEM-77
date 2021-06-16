@@ -181,3 +181,41 @@
 [14-Jun-2021 09:37:39 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-styles.php:174
 [14-Jun-2021 09:37:39 UTC] PHP  10. _doing_it_wrong() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.wp-scripts.php:67
 [14-Jun-2021 09:37:39 UTC] PHP  11. trigger_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php:5313
+[15-Jun-2021 14:30:08 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[16-Jun-2021 07:52:31 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-simplepie.php on line 1728
+[16-Jun-2021 10:28:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goupevents_customize_register_section_logos_theme() in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php:23
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): gedem_customize_register(Object(WP_Customize_Manager))
+#1 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\GEDEM-77\wp\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\wamp64\www\GEDEM-77\wp-config.php(12 in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php on line 23
+[16-Jun-2021 10:28:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[16-Jun-2021 10:28:08 UTC] PHP Stack trace:
+[16-Jun-2021 10:28:08 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[16-Jun-2021 10:28:08 UTC] PHP   2. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[16-Jun-2021 10:28:08 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[16-Jun-2021 10:28:08 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[16-Jun-2021 10:28:08 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[16-Jun-2021 10:28:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[16-Jun-2021 10:28:08 UTC] PHP Stack trace:
+[16-Jun-2021 10:28:08 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[16-Jun-2021 10:28:08 UTC] PHP   2. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[16-Jun-2021 10:28:08 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[16-Jun-2021 10:28:08 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[16-Jun-2021 10:28:08 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[16-Jun-2021 10:28:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goupevents_customize_register_section_logos_theme() in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php:23
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): gedem_customize_register(Object(WP_Customize_Manager))
+#1 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\GEDEM-77\wp\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\wamp64\www\GEDEM-77\wp-config.php(12 in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php on line 23
