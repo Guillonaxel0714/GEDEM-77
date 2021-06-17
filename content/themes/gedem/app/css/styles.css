@@ -67,9 +67,8 @@ header {
   align-items: center;
   flex-wrap: nowrap;
   margin: 50px 0; }
-  .icon i {
+  .icon img {
     color: #1B3762;
-    font-size: 50px;
     margin-right: 50px; }
   .icon p {
     width: 70%;
@@ -1428,7 +1427,7 @@ nav {
       height: 200px; }
       .blog-card.row {
         max-width: 600px;
-        height: 210px; }
+        height: 230px; }
       .blog-card .meta {
         flex-basis: 30%;
         height: auto; }

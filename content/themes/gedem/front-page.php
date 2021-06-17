@@ -2,7 +2,7 @@
 /**
  * Template Name: Front Page
  *
- * @package goUpEvents
+ *
  */
 
 get_header();
@@ -25,6 +25,43 @@ get_header();
         );
     ?>
 </section>
+
+<?php
+$last_posts_query = new WP_Query(
+    [
+        'post_type'         => 'post',
+        'orderby'           => 'date',
+        'order'             => 'DESC',
+        'posts_per_page'    => 3,
+        'page'              => 1,
+    ]  
+);
+
+if( $last_posts_query->have_posts() ) :
+?>
+
+<section class="post-actu">
+    <h3>Les actualités</h3>
+
+    <?php 
+    while ( $last_posts_query->have_posts() ) :
+       $last_posts_query->the_post();
+
+       get_template_part(
+           'template-parts/front-page/post',
+           'excerpt'
+       );
+    ?>
+
+    <?php endwhile; ?>
+
+</section>
+
+<?php 
+endif;
+?>
+
+
 
     <?php
     get_footer();

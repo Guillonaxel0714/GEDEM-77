@@ -1,6 +1,6 @@
 <?php
 /**
- * Manage Customizer's Go Up Events logos
+ * Manage Customizer's GEDEM logos
  *
  * 
  */

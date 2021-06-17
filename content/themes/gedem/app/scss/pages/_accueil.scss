@@ -64,9 +64,8 @@ header{
     @include flex-el(flex, center, row, center, nowrap);
     margin: 50px 0;
 
-    i{
+    img{
         color: $main-color-blue;
-        font-size: 50px;
         margin-right: 50px;
     }
 
