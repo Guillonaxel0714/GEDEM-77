@@ -80,7 +80,6 @@ header{
     .all_goals{
         width: 100%;
         max-width: 1500px;
-        background-image: url('../assets/recycle.png');
         @include bg-placement(35%, center, no-repeat);
         @include flex-el(flex, space-evenly, row, flex-start, wrap);
         padding: 75px 0;

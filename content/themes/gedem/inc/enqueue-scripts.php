@@ -15,7 +15,7 @@ function load_scripts() {
     );  
 
     wp_enqueue_style( 'load-fa',
-        'https://use.fontawesome.com/releases/v5.5.0/css/all.css',
+    'https://use.fontawesome.com/releases/v5.15.3/css/all.css',
         [],
     );
 

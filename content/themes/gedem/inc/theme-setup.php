@@ -28,3 +28,10 @@ function gedemTheme_title_separator($title){
   return '|';
 }
 add_filter( 'document_title_separator', 'gedemTheme_title_separator' );
+
+
+// Data validation of ACF editor fields
+function gedem_acf_format_value( $value, $post_id, $field ) {
+	return esc_attr( $value );
+}
+add_filter('acf/format_value/type=editor', 'gedem_acf_format_value', 10, 3);

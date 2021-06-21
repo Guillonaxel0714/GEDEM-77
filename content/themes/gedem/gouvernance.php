@@ -5,7 +5,7 @@ Template Name: gouvernance
 ?>
 <?php get_header(); ?>
 
-<h1>truc</h1>
+<h1>Gouvernance</h1>
 
 
 <?php get_footer(); ?>

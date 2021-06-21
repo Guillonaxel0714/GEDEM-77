@@ -11,7 +11,7 @@
         <div class="footer_row">
             <div class="section_footer_img">
                 <div class="footer_logo">
-                    <img class="logo" src="" alt="logo gedem 77">
+                    <img class="logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
                 </div>
             </div>
             <div class="footer-nav">

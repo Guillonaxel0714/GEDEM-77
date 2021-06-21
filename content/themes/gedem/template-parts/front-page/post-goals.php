@@ -6,22 +6,22 @@
  */
 ?>
 
-<h3>Quels sont nos objectifs ?</h3>
-<div class="all_goals">
+<h3><?php the_field( 'section_goals_title' ); ?></h3>
+<div class="all_goals" style="background-image: url('<?php the_field( 'background_img' ); ?>');">
     <div class="goal">
-        <p class="title_goal_1">défendre</p>
-        <p class="goal_txt">Défendre les intérêts des collectivités et syndicats adhérents auprès des organismes publics et administrations d’Etat ayant un pouvoir ou une action dans le domaine de la collecte ou du traitement des déchets ménagers</p>
+        <p class="title_goal_1"><?php the_field( 'title_goal_1' ); ?></p>
+        <p class="goal_txt"><?php the_field( 'text_goal_1' ); ?></p>
     </div>
     <div class="goal">
-        <p class="title_goal_2">servir</p>
-        <p class="goal_txt">Servir de plate-forme d’échange des expériences et connaissances accumulées par chacun des adhérents dans les domaines concernés</p>
+        <p class="title_goal_2"><?php the_field( 'title_goal_2' ); ?></p>
+        <p class="goal_txt"><?php the_field( 'text_goal_2' ); ?></p>
     </div>
     <div class="goal">
-        <p class="title_goal_3">emettre</p>
-        <p class="goal_txt">Emettre des avis sur tous les sujets d’actualité susceptibles d’influer directement ou indirectement sur les domaines concernés</p>
+        <p class="title_goal_3"><?php the_field( 'title_goal_3' ); ?></p>
+        <p class="goal_txt"><?php the_field( 'text_goal_3' ); ?></p>
     </div>
     <div class="goal">
-        <p class="title_goal_4">assister</p>
-        <p class="goal_txt">Assister les adhérents dans leur mission de service public de collecte et de traitement des déchets ménagers et assimilés</p>
+        <p class="title_goal_4"><?php the_field( 'title_goal_4' ); ?></p>
+        <p class="goal_txt"><?php the_field( 'text_goal_4' ); ?></p>
     </div>
 </div>
