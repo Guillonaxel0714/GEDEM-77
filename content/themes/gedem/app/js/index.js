@@ -30,70 +30,6 @@ const navSlide = () => {
 navSlide();
 
 
-// COMPTEUR
-
-var node =  document.getElementById("compteur"); // On récupère notre noeud où sera rafraîchi la valeur du compteur
-
-if(undefined != node){
-  var n = node.innerHTML; // Nombre final du compteur
-  var cpt = 0; // Initialisation du compteur
-  var duree = 1; // Durée en seconde pendant laquel le compteur ira de 0 à 15
-  var delta = Math.ceil((duree * 0.1) / n); // On calcule l'intervalle de temps entre chaque rafraîchissement du compteur (durée mise en milliseconde)
-
-  function countdown() {
-    node.innerHTML = ++cpt;
-    if( cpt < n ) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
-      setTimeout(countdown, delta);
-    }
-  }
-  
-  setTimeout(countdown, delta);
-
-}
-
-
-
-
-// ANNIMATION TEXT WRITE/DELETE
-
-const txtAnim = document.getElementById('writter_txt');
-
-new Typewriter(txtAnim, {
-  loop: true,
-  deleteSpeed: 30
-})
-.changeDelay(80)
-.typeString('SIVOM')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SIETOM')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SIRMOTOM')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SMETOM GEEODE')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SMITOM LOMBRIC')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SYTRADEM')
-.pauseFor(1000)
-.deleteAll()
-.typeString('BEGEVAL')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SMITOM NORD')
-.pauseFor(1000)
-.deleteAll()
-.typeString('SIETREM')
-.pauseFor(1000)
-.deleteAll()
-
-.start()
-
-
 // GO TO TOP
 
 const hiddenButton = document.querySelector('.return-to-top');
@@ -318,7 +254,45 @@ function makeCardUp(e,index){
   }
 }
 
-// ANIMATE ON SCROLL INITIALISATION
+// ANNIMATION TEXT WRITE/DELETE
 
+const txtAnim = document.getElementById('writter_txt');
+
+new Typewriter(txtAnim, {
+  loop: true,
+  deleteSpeed: 30
+})
+.changeDelay(80)
+.typeString('SIVOM')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SIETOM')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SIRMOTOM')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SMETOM GEEODE')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SMITOM LOMBRIC')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SYTRADEM')
+.pauseFor(1000)
+.deleteAll()
+.typeString('BEGEVAL')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SMITOM NORD')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SIETREM')
+.pauseFor(1000)
+.deleteAll()
+
+.start()
+
+// ANIMATE ON SCROLL INITIALISATION
 AOS.init();
 

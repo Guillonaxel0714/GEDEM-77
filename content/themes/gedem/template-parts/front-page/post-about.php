@@ -1,12 +1,12 @@
-  <?php
+<?php
 /**
- * Template affichant la section A propos 
+ * Template affichant la section A propos sur la page d'accueil
  *
  * 
  */
 ?>
 
-<h3><?php the_field( 'section_about_title' ) ?></h3>
+<h3><?php the_field( 'section_about_title' ); ?></h3>
 <div class="sct_about">
     <div class="block1">
         <p class="gedem">Le GEDEM c'est...</p>

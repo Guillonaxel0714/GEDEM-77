@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php if ( is_front_page() ) : ?>
-        <div class="img_home"> 
+        <div class="img_home" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"> 
             <header class="header">
                 <nav>
                     <div class="nav-img">
@@ -49,9 +49,9 @@
                 </nav>
             </header> 
             <div class="title_home">
-                <h1>GEDEM 77</h1>
-                <h2>GEstionnaires public des DEchets Ménagers</h2>
-                <h4 id="writter_txt">Adhérents</h4>
+                <h1><?php bloginfo('name'); ?></h1>
+                <h2><?php bloginfo('description'); ?></h2>
+                <h4 id="writter_txt"></h4>
             </div>
             <a href="#about">
                 <div class="scroll_down"></div>

@@ -3,9 +3,16 @@
 Template Name: adherents
 */
 ?>
+
 <?php get_header(); ?>
 
-<h1>Adhérents</h1>
+
+<?php
+    get_template_part(
+        'template-parts/adherents-page/post',
+        'adherents'
+    );
+?>
 
 
 <?php get_footer(); ?>

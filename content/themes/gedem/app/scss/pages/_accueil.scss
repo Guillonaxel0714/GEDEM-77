@@ -8,7 +8,6 @@ header{
 .img_home{
     height: 100vh;
     padding-bottom: 50px;
-    background-image: url('../assets/bg-accueil.jpeg');
     @include bg-placement(cover, center, no-repeat);
     @include flex-el(flex, space-between, column, center, nowrap);
 

@@ -17,14 +17,21 @@ get_header();
     ?>
 </section>
 
-<section class="objectifs">
-    <?php
-        get_template_part(
-            'template-parts/front-page/post',
-            'goals'
-        );
-    ?>
-</section>
+
+<?php
+    get_template_part(
+        'template-parts/front-page/post',
+        'goals'
+    );
+?>
+
+<?php
+    get_template_part(
+        'template-parts/front-page/post',
+        'timeline'
+    );
+?>
+
 
 <?php
 $last_posts_query = new WP_Query(
@@ -39,6 +46,7 @@ $last_posts_query = new WP_Query(
 
 if( $last_posts_query->have_posts() ) :
 ?>
+
 
 <section class="post-actu">
     <h3>Les actualités</h3>
@@ -55,6 +63,10 @@ if( $last_posts_query->have_posts() ) :
 
     <?php endwhile; ?>
 
+    <div class="button">
+        <a href="#">Tous les articles</a>
+    </div>
+
 </section>
 
 <?php 
@@ -62,8 +74,7 @@ endif;
 ?>
 
 
-
-    <?php
+<?php
     get_footer();
 
 ?>

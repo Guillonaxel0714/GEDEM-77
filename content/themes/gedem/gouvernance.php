@@ -3,9 +3,25 @@
 Template Name: gouvernance
 */
 ?>
+
 <?php get_header(); ?>
 
-<h1>Gouvernance</h1>
+
+
+<?php
+    get_template_part(
+        'template-parts/gouvernance-page/post',
+        'president'
+    );
+?>
+
+
+<?php
+    get_template_part(
+        'template-parts/gouvernance-page/post',
+        'vices-presidents'
+    );
+?>
 
 
 <?php get_footer(); ?>

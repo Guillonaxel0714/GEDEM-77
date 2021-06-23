@@ -9,12 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "aos": "^2.3.4",
     "browser-sync": "^2.26.14",
-    "del": "^6.0.0",
-    "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8"
   }
 }

@@ -346,3 +346,412 @@ Stack trace:
 #6 C:\wamp64\www\GEDEM-77\wp\index.php(17): require('C:\\wamp64\\www\\G...')
 #7 {main}
   thrown in C:\wamp64\www\GEDEM-77\content\themes\gedem\template-parts\front-page\post-about.php on line 15
+[22-Jun-2021 09:59:57 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 09:59:57 UTC] PHP Stack trace:
+[22-Jun-2021 09:59:57 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 09:59:57 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 09:59:57 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 09:59:57 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 09:59:57 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 09:59:57 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 09:59:57 UTC] PHP Stack trace:
+[22-Jun-2021 09:59:57 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 09:59:57 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 09:59:57 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 09:59:57 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 09:59:57 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 09:59:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[22-Jun-2021 09:59:57 UTC] PHP Stack trace:
+[22-Jun-2021 09:59:57 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 09:59:58 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 09:59:58 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 09:59:58 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 09:59:58 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 09:59:58 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[22-Jun-2021 09:59:58 UTC] PHP   7. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[22-Jun-2021 09:59:58 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[22-Jun-2021 09:59:58 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[22-Jun-2021 09:59:58 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[22-Jun-2021 09:59:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[22-Jun-2021 09:59:58 UTC] PHP Stack trace:
+[22-Jun-2021 09:59:58 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 09:59:58 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 09:59:58 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 09:59:58 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 09:59:58 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 09:59:58 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[22-Jun-2021 09:59:58 UTC] PHP   7. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[22-Jun-2021 09:59:58 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[22-Jun-2021 09:59:58 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[22-Jun-2021 09:59:58 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[22-Jun-2021 10:00:49 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 10:00:49 UTC] PHP Stack trace:
+[22-Jun-2021 10:00:49 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 10:00:49 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 10:00:49 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 10:00:49 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 10:00:49 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 10:00:49 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 10:00:49 UTC] PHP Stack trace:
+[22-Jun-2021 10:00:49 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 10:00:49 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 10:00:49 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 10:00:49 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 10:00:49 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 10:01:04 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 10:01:04 UTC] PHP Stack trace:
+[22-Jun-2021 10:01:04 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 10:01:04 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 10:01:04 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 10:01:04 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 10:01:04 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 10:01:04 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-timeline.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 10:01:04 UTC] PHP Stack trace:
+[22-Jun-2021 10:01:04 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 10:01:04 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 10:01:04 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 10:01:04 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 10:01:04 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 11:40:06 UTC] PHP Notice:  Undefined variable: post_type_dates_labels in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php on line 30
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 11:40:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 11:40:06 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 11:40:06 UTC] PHP   5. do_action() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:560
+[22-Jun-2021 11:40:06 UTC] PHP   6. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   7. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   8. gedem_timeline_register_post_type() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[22-Jun-2021 11:40:06 UTC] PHP Notice:  Undefined variable: post_type_dates_labels in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php on line 48
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 11:40:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 11:40:06 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 11:40:06 UTC] PHP   5. do_action() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:560
+[22-Jun-2021 11:40:06 UTC] PHP   6. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   7. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   8. gedem_timeline_register_post_type() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[22-Jun-2021 11:40:06 UTC] PHP Notice:  Undefined variable: post_type_dates_labels in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php on line 30
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:10
+[22-Jun-2021 11:40:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[22-Jun-2021 11:40:06 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 11:40:06 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 11:40:06 UTC] PHP   6. do_action() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:560
+[22-Jun-2021 11:40:06 UTC] PHP   7. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   8. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   9. gedem_timeline_register_post_type() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[22-Jun-2021 11:40:06 UTC] PHP Notice:  Undefined variable: post_type_dates_labels in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php on line 48
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:10
+[22-Jun-2021 11:40:06 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[22-Jun-2021 11:40:06 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 11:40:06 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 11:40:06 UTC] PHP   6. do_action() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:560
+[22-Jun-2021 11:40:06 UTC] PHP   7. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   8. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   9. gedem_timeline_register_post_type() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[22-Jun-2021 11:40:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php:48) in C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php on line 6362
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:10
+[22-Jun-2021 11:40:06 UTC] PHP   3. do_action() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:175
+[22-Jun-2021 11:40:06 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   6. send_frame_options_header() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:290
+[22-Jun-2021 11:40:06 UTC] PHP   7. header() C:\wamp64\www\GEDEM-77\wp\wp-includes\functions.php:6362
+[22-Jun-2021 11:40:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\cpt-timeline.php:48) in C:\wamp64\www\GEDEM-77\wp\wp-admin\includes\misc.php on line 1310
+[22-Jun-2021 11:40:06 UTC] PHP Stack trace:
+[22-Jun-2021 11:40:06 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:0
+[22-Jun-2021 11:40:06 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\post-new.php:10
+[22-Jun-2021 11:40:06 UTC] PHP   3. do_action() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:175
+[22-Jun-2021 11:40:06 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[22-Jun-2021 11:40:06 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[22-Jun-2021 11:40:06 UTC] PHP   6. wp_admin_headers() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[22-Jun-2021 11:40:06 UTC] PHP   7. header() C:\wamp64\www\GEDEM-77\wp\wp-admin\includes\misc.php:1310
+[22-Jun-2021 12:00:03 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:00:03 UTC] PHP Stack trace:
+[22-Jun-2021 12:00:03 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\index.php:0
+[22-Jun-2021 12:00:03 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\index.php:10
+[22-Jun-2021 12:00:03 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[22-Jun-2021 12:00:03 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:00:03 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:00:03 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:00:03 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:00:03 UTC] PHP Stack trace:
+[22-Jun-2021 12:00:03 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\index.php:0
+[22-Jun-2021 12:00:03 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\index.php:10
+[22-Jun-2021 12:00:03 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[22-Jun-2021 12:00:03 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:00:03 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:00:03 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:12:16 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:12:16 UTC] PHP Stack trace:
+[22-Jun-2021 12:12:16 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:12:16 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:12:16 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:12:16 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:12:16 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:12:16 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:12:16 UTC] PHP Stack trace:
+[22-Jun-2021 12:12:16 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:12:16 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:12:16 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:12:16 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:12:16 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:14:17 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:14:17 UTC] PHP Stack trace:
+[22-Jun-2021 12:14:17 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:14:17 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:14:17 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:14:17 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:14:17 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:14:17 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:14:17 UTC] PHP Stack trace:
+[22-Jun-2021 12:14:17 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:14:17 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:14:17 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:14:17 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:14:17 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:16:18 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:16:18 UTC] PHP Stack trace:
+[22-Jun-2021 12:16:18 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:16:18 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:16:18 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:16:18 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:16:18 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:16:18 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-dates.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 14
+[22-Jun-2021 12:16:18 UTC] PHP Stack trace:
+[22-Jun-2021 12:16:18 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[22-Jun-2021 12:16:18 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[22-Jun-2021 12:16:18 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[22-Jun-2021 12:16:18 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[22-Jun-2021 12:16:18 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[22-Jun-2021 12:49:36 UTC] PHP Notice:  Undefined variable: last_posts_query in C:\wamp64\www\GEDEM-77\content\themes\gedem\front-page.php on line 38
+[22-Jun-2021 12:49:36 UTC] PHP Stack trace:
+[22-Jun-2021 12:49:36 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\index.php:0
+[22-Jun-2021 12:49:36 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[22-Jun-2021 12:49:36 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:19
+[22-Jun-2021 12:49:36 UTC] PHP   4. include() C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php:106
+[22-Jun-2021 12:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\GEDEM-77\content\themes\gedem\front-page.php:38
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\G...')
+#2 C:\wamp64\www\GEDEM-77\wp\index.php(17): require('C:\\wamp64\\www\\G...')
+#3 {main}
+  thrown in C:\wamp64\www\GEDEM-77\content\themes\gedem\front-page.php on line 38
+[23-Jun-2021 07:48:28 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-vice-presidence.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 16
+[23-Jun-2021 07:48:28 UTC] PHP Stack trace:
+[23-Jun-2021 07:48:28 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 07:48:28 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 07:48:28 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 07:48:28 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 07:48:28 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 07:48:28 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-vice-presidence.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 16
+[23-Jun-2021 07:48:28 UTC] PHP Stack trace:
+[23-Jun-2021 07:48:28 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 07:48:28 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 07:48:28 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 07:48:28 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 07:48:28 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 07:48:28 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-vice-presidence.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 16
+[23-Jun-2021 07:48:28 UTC] PHP Stack trace:
+[23-Jun-2021 07:48:28 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[23-Jun-2021 07:48:28 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[23-Jun-2021 07:48:28 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[23-Jun-2021 07:48:28 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 07:48:28 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 07:48:28 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 07:48:28 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-vice-presidence.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 16
+[23-Jun-2021 07:48:28 UTC] PHP Stack trace:
+[23-Jun-2021 07:48:28 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:0
+[23-Jun-2021 07:48:28 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\edit.php:10
+[23-Jun-2021 07:48:28 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[23-Jun-2021 07:48:28 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 07:48:28 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 07:48:28 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:39:14 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:39:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:39:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:39:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:39:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:39:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:39:14 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:39:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:39:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:39:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:39:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:39:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:39:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[23-Jun-2021 11:39:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:39:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:39:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:39:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:39:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:39:14 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   7. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[23-Jun-2021 11:39:14 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[23-Jun-2021 11:39:14 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[23-Jun-2021 11:39:14 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[23-Jun-2021 11:39:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[23-Jun-2021 11:39:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:39:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:39:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:39:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:39:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:39:14 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[23-Jun-2021 11:39:14 UTC] PHP   7. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[23-Jun-2021 11:39:14 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[23-Jun-2021 11:39:14 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[23-Jun-2021 11:39:14 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[23-Jun-2021 11:40:01 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:40:01 UTC] PHP Stack trace:
+[23-Jun-2021 11:40:01 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:40:01 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:40:01 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:40:01 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:40:01 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:40:01 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:40:01 UTC] PHP Stack trace:
+[23-Jun-2021 11:40:01 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:40:01 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:40:01 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:40:01 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:40:01 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:14 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:14 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:14 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:14 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:14 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:14 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:14 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:14 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:47 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:47 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:47 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:47 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:47 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:47 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:47 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:47 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:47 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:47 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:47 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:47 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:47 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:47 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:48 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:48 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:48 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:48 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:48 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:48 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:48 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:48 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:48 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:48 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:41:48 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:41:48 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:48 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:48 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:49 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:49 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:49 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\index.php:0
+[23-Jun-2021 11:41:49 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[23-Jun-2021 11:41:49 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:13
+[23-Jun-2021 11:41:49 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:49 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:49 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:41:49 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:41:49 UTC] PHP Stack trace:
+[23-Jun-2021 11:41:49 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\index.php:0
+[23-Jun-2021 11:41:49 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[23-Jun-2021 11:41:49 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:13
+[23-Jun-2021 11:41:49 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:41:49 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:41:49 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:42:03 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:42:03 UTC] PHP Stack trace:
+[23-Jun-2021 11:42:03 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:42:03 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:42:03 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:42:03 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:42:03 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 11:42:03 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[23-Jun-2021 11:42:03 UTC] PHP Stack trace:
+[23-Jun-2021 11:42:03 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 11:42:03 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 11:42:03 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 11:42:03 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 11:42:03 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:47:32 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:47:32 UTC] PHP Stack trace:
+[23-Jun-2021 13:47:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:47:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:47:32 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:47:32 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:47:32 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:47:32 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:47:32 UTC] PHP Stack trace:
+[23-Jun-2021 13:47:32 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:47:32 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:47:32 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:47:32 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:47:32 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:49:33 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:49:33 UTC] PHP Stack trace:
+[23-Jun-2021 13:49:33 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:49:33 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:49:33 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:49:33 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:49:33 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:49:33 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:49:33 UTC] PHP Stack trace:
+[23-Jun-2021 13:49:33 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:49:33 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:49:33 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:49:33 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:49:33 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:50:38 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:50:38 UTC] PHP Stack trace:
+[23-Jun-2021 13:50:38 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:50:38 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:50:38 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:50:38 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:50:38 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:50:38 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:50:38 UTC] PHP Stack trace:
+[23-Jun-2021 13:50:38 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[23-Jun-2021 13:50:38 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[23-Jun-2021 13:50:38 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:50:38 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:50:38 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:50:39 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:50:39 UTC] PHP Stack trace:
+[23-Jun-2021 13:50:39 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\upload.php:0
+[23-Jun-2021 13:50:39 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\upload.php:10
+[23-Jun-2021 13:50:39 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[23-Jun-2021 13:50:39 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:50:39 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:50:39 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[23-Jun-2021 13:50:39 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-partenaires .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 20
+[23-Jun-2021 13:50:39 UTC] PHP Stack trace:
+[23-Jun-2021 13:50:39 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\upload.php:0
+[23-Jun-2021 13:50:39 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\upload.php:10
+[23-Jun-2021 13:50:39 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[23-Jun-2021 13:50:39 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[23-Jun-2021 13:50:39 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[23-Jun-2021 13:50:39 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528

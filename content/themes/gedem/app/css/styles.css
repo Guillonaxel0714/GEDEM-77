@@ -13,7 +13,6 @@ header {
 .img_home {
   height: 100vh;
   padding-bottom: 50px;
-  background-image: url("../assets/bg-accueil.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
