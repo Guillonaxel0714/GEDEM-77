@@ -211,7 +211,7 @@ header {
 
 .all_articles {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap; }
@@ -605,7 +605,6 @@ div.card.show {
   display: inline-block; }
 
 .contact_sct {
-  background-image: url("../assets/bg-contact.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

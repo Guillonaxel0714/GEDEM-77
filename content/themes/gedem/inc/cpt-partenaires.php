@@ -28,7 +28,7 @@ function gedem_partenaires_register_post_type(){
 		'label'              => 'Partenaires',
 		'labels'             => $post_type_partenaires_labels,
 		'description'        => 'Liste des partenaires',
-		'menu_position'      => 6,
+		'menu_position'      => 4,
 		'menu_icon'          => 'dashicons-awards',
       'hierarchical'       => false, // Se comporte comme les articles
       'supports'           => [

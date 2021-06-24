@@ -28,7 +28,7 @@ function gedem_timeline_register_post_type(){
 		'label'              => 'Timeline',
 		'labels'             => $post_type_timeline_labels,
 		'description'        => 'Liste des grandes dates',
-		'menu_position'      => 6,
+		'menu_position'      => 4,
 		'menu_icon'          => 'dashicons-clock',
       'hierarchical'       => false, // Se comporte comme les articles
       'supports'           => [

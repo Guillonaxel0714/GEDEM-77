@@ -5,35 +5,51 @@
  * 
  */
 
-$partenaires_query = new WP_Query(
+$adherents_query = new WP_Query(
     [
-        'post_type'      => 'partenaires', // custom post type associé
+        'post_type'      => 'adhérents', // custom post type associé
         'orderby'        => 'menu_order', // Trie l'ordre du BO
         'order'          => 'ASC',
         'posts_per_page' => -1, // Toutes les pages enfants
     ]
 );
-
 ?>
 
-<section class="sct_partenaires">
-    <h3>Nos partenaires</h3>
-    <div class="all_partenaires">
+<section class="members">
+    <h3>Les membres</h3>
+    <div id="cards"> 
     <?php
-    if ( $partenaires_query->have_posts() ) :
-        while ( $partenaires_query->have_posts() ) :
-        $partenaires_query->the_post();
+    if ( $adherents_query->have_posts() ) :
+        while ( $adherents_query->have_posts() ) :
+            $adherents_query->the_post();
         ?>
-        <div class="partenaire">
-            <div class="img_partenaire">
-                <img src="<?php the_field( 'logo_partenaire' ); ?>" alt="logo région Ile de France">
+        <div class="card">
+            <div class="card__image-holder" style="background-image: url('<?php the_field( 'logo_adherent' ); ?>');"></div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <p class="title_card"><?php the_field( 'name_adherent' ); ?></p>
             </div>
-            <p><?php the_field( 'desc_partenaire' ); ?></p>
-          <a href="https://www.iledefrance.fr/">En savoir plus</a>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    <p><?php the_field( 'desc_adherent' ); ?></p>
+                    <p>Les équipements du syndicat sont composés de : </p>
+                    <ol>
+                        <li><?php the_field( 'list_install_adherent' ); ?></li>
+                    </ol>
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions">
+                        <a href="https://www.sirmotom.fr/" class="btn">Afficher</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <?php
         endwhile;
         wp_reset_postdata();
     endif; ?>
     </div>
-  </section>
+</section>

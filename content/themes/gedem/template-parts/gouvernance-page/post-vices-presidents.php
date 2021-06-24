@@ -16,7 +16,6 @@ $vice_presidence_query = new WP_Query(
 
 ?>
 
-
 <section class="sct-vice-presidence">
     <h3>Vice-présidence</h3>
     <div class="all_cards">
@@ -30,7 +29,7 @@ $vice_presidence_query = new WP_Query(
                 <p><?php the_field( 'first_name' ); ?> <span><?php the_field( 'last_name' ); ?></span></p>
             </div>
             <div class="imgBx">
-                <img src="<?php the_field( 'photo_vice_president' ); ?>" alt="Photo de Valérie Lacroute">
+                <img src="<?php the_field( 'photo_vice_president' ); ?>" alt="Photo des vices-présidents">
             </div>
             <div class="details">
                 <p><?php the_field( 'poste_occupe' ); ?> du<br><span><?php the_field( 'syndicat_name' ); ?></span></p>

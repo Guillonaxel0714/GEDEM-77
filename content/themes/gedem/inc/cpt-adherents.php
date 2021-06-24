@@ -6,7 +6,7 @@
  */
 
 function gedem_adherents_register_post_type(){
-   $post_type_adherents_labels = [
+   	$post_type_adherents_labels = [
 		'name'               => 'Les adhérents',
 		'singular_name'      => 'Les adhérents',
 		'add_new'            => 'Ajouter',
@@ -20,18 +20,18 @@ function gedem_adherents_register_post_type(){
 		'menu_name'          => 'Adhérents',
 		'all_items'          => 'Tous les adhérents',
 		'attributes'         => 'Attributs des adhérents',
-   ];
+   	];     
 
-   $post_type_adherents_args = [
-      'public'             => true,
+   	$post_type_adherents_args = [
+      	'public'             => true,
 		'publicly_queryable' => false, // n'affiche pas de permalien/prévisualisation
 		'label'              => 'adhérents',
 		'labels'             => $post_type_adherents_labels,
 		'description'        => 'Liste des adhérents',
 		'menu_position'      => 6,
 		'menu_icon'          => 'dashicons-buddicons-buddypress-logo',
-      'hierarchical'       => false, // Se comporte comme les articles
-      'supports'           => [
+      	'hierarchical'       => false, // Se comporte comme les articles
+      	'supports'           => [
 			'title',
 			// 'editor',
 			'thumbnail',
@@ -40,7 +40,7 @@ function gedem_adherents_register_post_type(){
 		],
 		'has_archive'       => false,
 		'show_in_rest'      => true,
-   ];
+   	];
 
 	// Permet d'ajouter un nouveau type de contenu
 	register_post_type(

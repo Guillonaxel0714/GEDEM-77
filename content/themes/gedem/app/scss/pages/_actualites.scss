@@ -2,7 +2,7 @@
 @import '../abstracts/variable';
 
 .all_articles{
-    @include flex-el(flex, space-evenly, row, center, wrap);
+    @include flex-el(flex, center, row, center, wrap);
 }
 
 .articles_nav{

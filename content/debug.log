@@ -755,3 +755,82 @@ Stack trace:
 [23-Jun-2021 13:50:39 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
 [23-Jun-2021 13:50:39 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
 [23-Jun-2021 13:50:39 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 12:08:35 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[24-Jun-2021 12:08:35 UTC] PHP Stack trace:
+[24-Jun-2021 12:08:35 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:10
+[24-Jun-2021 12:08:35 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[24-Jun-2021 12:08:35 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 12:08:35 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 12:08:35 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 12:08:35 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/cpt-adherents .php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php on line 18
+[24-Jun-2021 12:08:35 UTC] PHP Stack trace:
+[24-Jun-2021 12:08:35 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:10
+[24-Jun-2021 12:08:35 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[24-Jun-2021 12:08:35 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 12:08:35 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 12:08:35 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 12:08:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[24-Jun-2021 12:08:35 UTC] PHP Stack trace:
+[24-Jun-2021 12:08:35 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:10
+[24-Jun-2021 12:08:35 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[24-Jun-2021 12:08:35 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 12:08:35 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 12:08:35 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 12:08:35 UTC] PHP   7. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   8. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[24-Jun-2021 12:08:35 UTC] PHP   9. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[24-Jun-2021 12:08:35 UTC] PHP  10. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[24-Jun-2021 12:08:35 UTC] PHP  11. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[24-Jun-2021 12:08:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[24-Jun-2021 12:08:35 UTC] PHP Stack trace:
+[24-Jun-2021 12:08:35 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\update-core.php:10
+[24-Jun-2021 12:08:35 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin.php:34
+[24-Jun-2021 12:08:35 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 12:08:35 UTC] PHP   5. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 12:08:35 UTC] PHP   6. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 12:08:35 UTC] PHP   7. WP_Fatal_Error_Handler->handle() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Jun-2021 12:08:35 UTC] PHP   8. WP_Recovery_Mode->handle_error() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-fatal-error-handler.php:52
+[24-Jun-2021 12:08:35 UTC] PHP   9. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode.php:184
+[24-Jun-2021 12:08:35 UTC] PHP  10. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:61
+[24-Jun-2021 12:08:35 UTC] PHP  11. WP_Recovery_Mode_Email_Service->get_debug() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-recovery-mode-email-service.php:149
+[24-Jun-2021 14:20:47 UTC] PHP Warning:  require(C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/customizer/banner_contact-img.php): failed to open stream: No such file or directory in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php on line 9
+[24-Jun-2021 14:20:47 UTC] PHP Stack trace:
+[24-Jun-2021 14:20:47 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[24-Jun-2021 14:20:47 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[24-Jun-2021 14:20:47 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 14:20:47 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 14:20:47 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 14:20:47 UTC] PHP   6. require() C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php:9
+[24-Jun-2021 14:20:47 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp64\www\GEDEM-77/content/themes/gedem/inc/customizer/banner_contact-img.php' (include_path='.;C:\php\pear') in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\customizer.php on line 9
+[24-Jun-2021 14:20:47 UTC] PHP Stack trace:
+[24-Jun-2021 14:20:47 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:0
+[24-Jun-2021 14:20:47 UTC] PHP   2. require_once() C:\wamp64\www\GEDEM-77\wp\wp-admin\admin-ajax.php:22
+[24-Jun-2021 14:20:47 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-load.php:42
+[24-Jun-2021 14:20:47 UTC] PHP   4. require_once() C:\wamp64\www\GEDEM-77\wp-config.php:121
+[24-Jun-2021 14:20:47 UTC] PHP   5. include() C:\wamp64\www\GEDEM-77\wp\wp-settings.php:528
+[24-Jun-2021 14:20:47 UTC] PHP   6. require() C:\wamp64\www\GEDEM-77\content\themes\gedem\functions.php:9
+[24-Jun-2021 14:42:24 UTC] PHP Notice:  Undefined variable: timeline_query in C:\wamp64\www\GEDEM-77\content\themes\gedem\template-parts\adherents-page\post-adherents.php on line 22
+[24-Jun-2021 14:42:24 UTC] PHP Stack trace:
+[24-Jun-2021 14:42:24 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\index.php:0
+[24-Jun-2021 14:42:24 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[24-Jun-2021 14:42:24 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:19
+[24-Jun-2021 14:42:24 UTC] PHP   4. include() C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php:106
+[24-Jun-2021 14:42:24 UTC] PHP   5. get_template_part() C:\wamp64\www\GEDEM-77\content\themes\gedem\adherents.php:12
+[24-Jun-2021 14:42:24 UTC] PHP   6. locate_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:204
+[24-Jun-2021 14:42:24 UTC] PHP   7. load_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:676
+[24-Jun-2021 14:42:24 UTC] PHP   8. require() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:732
+[24-Jun-2021 14:42:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\GEDEM-77\content\themes\gedem\template-parts\adherents-page\post-adherents.php:22
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\G...', false, Array)
+#2 C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\GEDEM-77\content\themes\gedem\adherents.php(12): get_template_part('template-parts/...', 'adherents')
+#4 C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\G...')
+#5 C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\G...')
+#6 C:\wamp64\www\GEDEM-77\wp\index.php(17): require('C:\\wamp64\\www\\G...')
+#7 {main}
+  thrown in C:\wamp64\www\GEDEM-77\content\themes\gedem\template-parts\adherents-page\post-adherents.php on line 22

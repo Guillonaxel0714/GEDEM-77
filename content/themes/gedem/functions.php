@@ -15,7 +15,7 @@ require get_theme_file_path( 'inc/cpt-timeline.php' );
 
 require get_theme_file_path( 'inc/cpt-vice-presidence.php' );
 
-// require get_theme_file_path( 'inc/cpt-adherents .php' );
+require get_theme_file_path( 'inc/cpt-adherents.php' );
 
 require get_theme_file_path( 'inc/cpt-partenaires.php' );
 
