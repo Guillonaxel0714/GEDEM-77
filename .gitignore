@@ -6,6 +6,8 @@ vendor
 
 node_modules/
 
+/content/debug.log
+
 /content/uploads
 /content/upgrade
 /content/debug.log

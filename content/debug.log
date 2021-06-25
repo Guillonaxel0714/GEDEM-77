@@ -834,3 +834,34 @@ Stack trace:
 #6 C:\wamp64\www\GEDEM-77\wp\index.php(17): require('C:\\wamp64\\www\\G...')
 #7 {main}
   thrown in C:\wamp64\www\GEDEM-77\content\themes\gedem\template-parts\adherents-page\post-adherents.php on line 22
+[25-Jun-2021 12:03:51 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\enqueue-scripts.php on line 31
+[25-Jun-2021 12:03:51 UTC] PHP Stack trace:
+[25-Jun-2021 12:03:51 UTC] PHP   1. {main}() C:\wamp64\www\GEDEM-77\wp\index.php:0
+[25-Jun-2021 12:03:51 UTC] PHP   2. require() C:\wamp64\www\GEDEM-77\wp\index.php:17
+[25-Jun-2021 12:03:51 UTC] PHP   3. require_once() C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php:19
+[25-Jun-2021 12:03:51 UTC] PHP   4. include() C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php:106
+[25-Jun-2021 12:03:51 UTC] PHP   5. get_header() C:\wamp64\www\GEDEM-77\content\themes\gedem\front-page.php:8
+[25-Jun-2021 12:03:51 UTC] PHP   6. locate_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:48
+[25-Jun-2021 12:03:51 UTC] PHP   7. load_template() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:676
+[25-Jun-2021 12:03:51 UTC] PHP   8. require_once() C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php:730
+[25-Jun-2021 12:03:51 UTC] PHP   9. wp_head() C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php:16
+[25-Jun-2021 12:03:51 UTC] PHP  10. do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php:3009
+[25-Jun-2021 12:03:51 UTC] PHP  11. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[25-Jun-2021 12:03:51 UTC] PHP  12. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[25-Jun-2021 12:03:51 UTC] PHP  13. wp_enqueue_scripts() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[25-Jun-2021 12:03:51 UTC] PHP  14. do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\script-loader.php:2027
+[25-Jun-2021 12:03:51 UTC] PHP  15. WP_Hook->do_action() C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php:484
+[25-Jun-2021 12:03:51 UTC] PHP  16. WP_Hook->apply_filters() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:316
+[25-Jun-2021 12:03:51 UTC] PHP  17. load_scripts() C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php:292
+[25-Jun-2021 12:03:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_script() in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\enqueue-scripts.php:31
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): load_scripts('')
+#1 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\GEDEM-77\wp\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\wamp64\www\GEDEM-77\wp\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\GEDEM-77\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php(16): wp_head()
+#9 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(730): require_once('C: in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\enqueue-scripts.php on line 31

@@ -15,24 +15,13 @@
                 </div>
             </div>
             <div class="footer-nav">
-                <ul class="footer_ul">
-                    <li class="footer-nav-li">
-                        <a href="index.html">accueil</a>
-                    </li>
-                    <li class="footer-nav-li">
-                        <a href="page_actualites.html">actualités</a>
-                    </li>
-                    <li class="footer-nav-li">
-                        <a href="page_adherents.html">adhérents</a>
-                    </li>
-                    <li class="footer-nav-li">
-                        <a href="page_gouvernance.html">gouvernance</a>
-                    </li>
-                    <li class="footer-nav-li">
-                        <a href="page_contact.html">contact</a>
-                    </li>
-                </ul>
-
+            <?php 
+                wp_nav_menu([
+                    'theme_location' => 'footer',
+                    'container' => false,
+                    'menu_class' => 'footer_ul'
+                ]) 
+            ?>
                 <p>© 2021 GEDEM 77</p>
 
             </div>
