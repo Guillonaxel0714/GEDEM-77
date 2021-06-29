@@ -27,7 +27,7 @@ Template Name: contact
         </div> 
         <div class="syndicats">
             <h3>Coordonnées des syndicats membres</h3>
-            <div id="mapid"></div>
+            <div id="mapid"><?php the_field( 'map' ); ?></div>
        </div>
     </section>
 

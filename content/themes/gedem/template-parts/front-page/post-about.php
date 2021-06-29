@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="about_img">
-        <lottie-player class="animation_loop" src="https://assets2.lottiefiles.com/packages/lf20_mboj5x.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+        <lottie-player class="animation_loop" src="<?php the_field( 'animation_about' ); ?>"  background="transparent"  speed="1" loop autoplay></lottie-player>
     </div>
 </div>
 

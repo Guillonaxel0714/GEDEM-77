@@ -211,7 +211,7 @@ header {
 
 .all_articles {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap; }
@@ -647,14 +647,29 @@ label {
   padding: 10px 50px; }
   .message textarea {
     width: 100%;
-    height: 300px;
+    height: 275px;
     resize: none;
     padding: 10px;
     border: none;
     border-radius: 8px;
     font-size: 1em;
     margin: 0 auto;
-    margin-top: 30px; }
+    margin-top: 15px; }
+
+input[type="submit"] {
+  color: #1B3762;
+  padding: 15px 30px;
+  border: #1B3762 solid 2px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px; }
+  input[type="submit"]:hover {
+    background-color: #1B3762;
+    border: 2px solid white;
+    transition: 0.5s;
+    color: white; }
 
 .gedem_info {
   width: 100%;
@@ -684,7 +699,7 @@ label {
     text-align: center; }
   .syndicats #mapid {
     width: 100%;
-    height: 600px; }
+    height: 550px; }
 
 @media screen and (max-width: 875px) {
   .contact_sct {

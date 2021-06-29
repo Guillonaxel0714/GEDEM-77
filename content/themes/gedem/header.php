@@ -35,11 +35,13 @@
                     </div>
 
                     <?php 
-                        wp_nav_menu([
-                            'theme_location' => 'header',
-                            'container' => false,
-                            'menu_class' => 'nav-links'
-                        ]) 
+                        wp_nav_menu(
+                            [
+                            'theme_location' => 'main-nav',
+                            'container'     => 'div',
+                            'menu_class'    => 'nav-links',
+                            ]
+                        ); 
                     ?>
                     <div class="burger">
                         <div class="line1"></div>

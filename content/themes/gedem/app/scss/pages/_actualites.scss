@@ -2,8 +2,9 @@
 @import '../abstracts/variable';
 
 .all_articles{
-    @include flex-el(flex, center, row, center, wrap);
+    @include flex-el(flex, start, row, center, wrap);
 }
+
 
 .articles_nav{
     @include flex-el(flex, space-between, row, center, wrap);

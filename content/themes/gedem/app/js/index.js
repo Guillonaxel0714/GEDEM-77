@@ -199,6 +199,8 @@ function initmap(){
 
 initmap();
 
+//cards adhérents
+
 const cards = document.getElementById("cards");
 const card = document.getElementsByClassName("card");
 const link=document.querySelectorAll(".card>.flap1>.flap2>.card-actions>a")

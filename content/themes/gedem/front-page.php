@@ -64,7 +64,7 @@ if( $last_posts_query->have_posts() ) :
     <?php endwhile; ?>
 
     <div class="button">
-        <a href="#">Tous les articles</a>
+        <a href="<?php echo trailingslashit( home_url() ) . 'actualites'; ?>">Tous les articles</a>
     </div>
 
 </section>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24d858bdeb2194bbbf835570b59be62e",
+    "content-hash": "af61f2d539a8cdb067c2a68d2284b6fa",
     "packages": [
         {
             "name": "composer/installers",
@@ -269,6 +269,24 @@
             "time": "2020-04-16T21:44:57+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-openstreetmap-field",
+            "version": "1.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-openstreetmap-field/",
+                "reference": "tags/1.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-openstreetmap-field.1.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-openstreetmap-field/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "5.9.7",
             "source": {
@@ -378,15 +396,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "5.7.0",
+            "version": "5.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/5.7.0"
+                "reference": "tags/5.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.5.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.5.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

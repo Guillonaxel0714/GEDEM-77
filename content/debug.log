@@ -865,3 +865,14 @@ Stack trace:
 #7 C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php(3009): do_action('wp_head')
 #8 C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php(16): wp_head()
 #9 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(730): require_once('C: in C:\wamp64\www\GEDEM-77\content\themes\gedem\inc\enqueue-scripts.php on line 31
+[29-Jun-2021 08:51:56 UTC] PHP Fatal error:  Uncaught Error: Class 'subMenu' not found in C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php:43
+Stack trace:
+#0 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(730): require_once()
+#1 C:\wamp64\www\GEDEM-77\wp\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\G...', true, Array)
+#2 C:\wamp64\www\GEDEM-77\wp\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\GEDEM-77\content\themes\gedem\front-page.php(8): get_header()
+#4 C:\wamp64\www\GEDEM-77\wp\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\G...')
+#5 C:\wamp64\www\GEDEM-77\wp\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\G...')
+#6 C:\wamp64\www\GEDEM-77\wp\index.php(17): require('C:\\wamp64\\www\\G...')
+#7 {main}
+  thrown in C:\wamp64\www\GEDEM-77\content\themes\gedem\header.php on line 43

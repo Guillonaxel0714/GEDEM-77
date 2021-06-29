@@ -17,7 +17,7 @@
             <div class="footer-nav">
             <?php 
                 wp_nav_menu([
-                    'theme_location' => 'footer',
+                    'theme_location' => 'footer-nav',
                     'container' => false,
                     'menu_class' => 'footer_ul'
                 ]) 
@@ -30,7 +30,7 @@
                     <p>contact@gedem.fr</p>
                     <p>01 64 83 58 60</p> 
                     <a href="">ESPACE ÉLU</a><br>
-                    <a href="page_legales.html">Mentions légales</a>
+                    <a href="<?php echo trailingslashit( home_url() ) . 'mentions-legales'; ?>">Mentions légales</a>
                 </div> 
             </div>
         </div>

@@ -22,7 +22,17 @@ require get_theme_file_path( 'inc/cpt-partenaires.php' );
 
 
 // Ajout des menus
-register_nav_menu('header', 'En tête du menu');
+//register_nav_menu('header', 'En tête du menu');
+
+function gedem_register_nav_menus() {
+	register_nav_menus(
+		[
+			'main-nav'    => 'Navigation principale',
+			'footer-nav'  => 'Navigation footer',
+		]
+	);
+}
+add_action( 'init', 'gedem_register_nav_menus' );
 
 
 
