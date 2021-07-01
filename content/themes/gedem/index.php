@@ -5,6 +5,7 @@
  * @package GEDEM
  */
 
+
 get_header();
 
 if ( have_posts() ) :

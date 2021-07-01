@@ -3,9 +3,9 @@
 
 .sct-single-article{
     h1{
-        display: block;
         color: $main-color-blue;
-        text-align: center;
+        font-size: 30px;
+        text-align: left;
         padding: 25px 0;
         position: relative;
 
@@ -16,7 +16,7 @@
             height: 3px;
             background-color: $secondary-color;
             bottom: 0;
-            left: 42%;
+            left: 0;
             transform: translate(-50% -50%);
         }
     }

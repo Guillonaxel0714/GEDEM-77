@@ -22,15 +22,15 @@
                     'menu_class' => 'footer_ul'
                 ]) 
             ?>
-                <p>© 2021 GEDEM 77</p>
+
 
             </div>
             <div class="footer_coord">
                 <div class="tkt">
-                    <p>contact@gedem.fr</p>
                     <p>01 64 83 58 60</p> 
                     <a href="">ESPACE ÉLU</a><br>
                     <a href="<?php echo trailingslashit( home_url() ) . 'mentions-legales'; ?>">Mentions légales</a>
+                    <p>© 2021 GEDEM 77</p>
                 </div> 
             </div>
         </div>

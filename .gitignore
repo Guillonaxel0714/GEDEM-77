@@ -6,11 +6,10 @@ vendor
 
 node_modules/
 
-/content/debug.log
+debug.log
 
 /content/uploads
 /content/upgrade
-/content/debug.log
 /content/themes/twentySeventeen
 
 /content/plugins/*

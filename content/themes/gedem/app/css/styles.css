@@ -249,21 +249,19 @@ select {
   height: 5rem;
   margin: 3rem;
   border-radius: 0.6rem;
-  box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05); }
-  .page__numbers, .page__btn, .page__dots {
+  box-shadow: 0 0.8rem 2rem rgba(27, 55, 98, 0.05); }
+  .page .next, .page .prev {
+    width: auto; }
+  .page li {
+    margin: 0 35px; }
+  .page__numbers {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.8rem;
     font-size: 1.4rem;
     cursor: pointer; }
-  .page__dots {
-    width: 2.6rem;
-    height: 2.6rem;
-    color: var(--greyLight);
-    cursor: initial; }
   .page__numbers {
-    width: 2.6rem;
+    width: 3rem;
     height: 2.6rem;
     border-radius: 0.4rem; }
     .page__numbers:hover {
@@ -273,14 +271,6 @@ select {
       background: #a8c55059;
       font-weight: 600;
       border: 1px solid var(--primary); }
-  .page__btn {
-    color: var(--greyLight);
-    pointer-events: none; }
-    .page__btn.active {
-      color: var(--greyDark);
-      pointer-events: initial; }
-      .page__btn.active:hover {
-        color: var(--primary); }
 
 .objectifs .all_goals .goal p:not(:last-child) {
   text-transform: uppercase;
@@ -682,7 +672,7 @@ input[type="submit"] {
   flex-wrap: nowrap; }
 
 .coordonne {
-  flex-basis: 30%;
+  flex-basis: 40%;
   padding-left: 50px; }
   .coordonne div {
     line-height: 30px; }
@@ -692,7 +682,7 @@ input[type="submit"] {
 
 .syndicats {
   line-height: 30px;
-  flex-basis: 70%; }
+  flex-basis: 60%; }
   .syndicats h3 {
     font-size: 28px;
     margin-bottom: 50px;
@@ -776,9 +766,9 @@ input[type="submit"] {
   display: inline-block; }
 
 .sct-single-article h1 {
-  display: block;
   color: #1B3762;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
   padding: 25px 0;
   position: relative; }
   .sct-single-article h1:after {
@@ -788,7 +778,7 @@ input[type="submit"] {
     height: 3px;
     background-color: #A8C550;
     bottom: 0;
-    left: 42%;
+    left: 0;
     transform: translate(-50% -50%); }
 
 .sct-single-article .img_article {
@@ -1380,6 +1370,12 @@ nav {
     padding: 10px;
     width: 100%;
     font-size: .9rem; }
+    .blog-card .details a {
+      color: white; }
+      .blog-card .details a:before {
+        font-family: FontAwesome;
+        margin-right: 10px;
+        content: "\f133"; }
     .blog-card .details ul li {
       display: inline-block; }
     .blog-card .details .author:before {

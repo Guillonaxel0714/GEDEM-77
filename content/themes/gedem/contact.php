@@ -14,15 +14,11 @@ Template Name: contact
 <section class="gedem_info">
         <div class="coordonne">
             <div>
-                <h3>Coordonnées</h3>
-                <p>Mail: <span>contact@gedem.fr</span></p>
-                <p>Téléphone : <span>01 64 83 58 60</span></p>
-            </div>
-            <div>
-                <h3>Siège social</h3>
-                <p><span> SMITOM LOMBRIC</span></p>
-                <p><span>Rue du tertre de Chérisy</span></p>
-                <p><span>77 000 Vaux-le-Pénil</span></p>
+                <h3><?php the_field( 'title_section' ); ?></h3>
+                <p><?php the_field( 'name_siege_social' ); ?></p>
+                <p><?php the_field( 'location_siege_social' ); ?></p>
+                <p><?php the_field( 'departement' ); ?></p>
+                <p>Téléphone : <span><?php the_field( 'phone_number' ); ?></span></p>
             </div>
         </div> 
         <div class="syndicats">
