@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af61f2d539a8cdb067c2a68d2284b6fa",
+    "content-hash": "289385f6a52db41961b7596d80da4f99",
     "packages": [
         {
             "name": "composer/installers",
@@ -411,6 +411,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/the-events-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/ultimate-maps-by-supsystic",
+            "version": "1.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ultimate-maps-by-supsystic/",
+                "reference": "tags/1.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ultimate-maps-by-supsystic.1.2.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ultimate-maps-by-supsystic/"
         },
         {
             "name": "wpackagist-theme/twentyseventeen",

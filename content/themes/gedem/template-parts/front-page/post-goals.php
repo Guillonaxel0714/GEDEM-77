@@ -7,7 +7,7 @@
 ?>
 
 <section class="objectifs">
-    <h3><?php the_field( 'section_goals_title' ); ?></h3>
+    <h3 class="title_section_unerlined"><?php the_field( 'section_goals_title' ); ?></h3>
     <div class="all_goals" style="background-image: url('<?php the_field( 'background_img' ); ?>');">
         <div class="goal">
             <p class="title_goal_1"><?php the_field( 'title_goal_1' ); ?></p>

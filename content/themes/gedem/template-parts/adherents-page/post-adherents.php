@@ -16,7 +16,7 @@ $adherents_query = new WP_Query(
 ?>
 
 <section class="members">
-    <h3>Les membres</h3>
+    <h3 class="title_section_unerlined">Les membres</h3>
     <div id="cards"> 
     <?php
     if ( $adherents_query->have_posts() ) :

@@ -6,7 +6,7 @@
  */
 ?>
 
-<h3><?php the_field( 'section_about_title' ); ?></h3>
+<h3 class="title_section_unerlined"><?php the_field( 'section_about_title' ); ?></h3>
 <div class="sct_about">
     <div class="block1">
         <p class="gedem">Le GEDEM c'est...</p>

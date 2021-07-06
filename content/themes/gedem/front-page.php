@@ -49,7 +49,7 @@ if( $last_posts_query->have_posts() ) :
 
 
 <section class="post-actu">
-    <h3>Les actualités</h3>
+    <h3 class="title_section_unerlined">Les actualités</h3>
 
     <?php 
     while ( $last_posts_query->have_posts() ) :

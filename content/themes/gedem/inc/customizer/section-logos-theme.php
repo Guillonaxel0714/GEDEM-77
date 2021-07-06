@@ -10,7 +10,7 @@ function gedem_customize_register_section_logos_theme( $wp_customize, $panel_id 
 	$section_id = $panel_id . '_logo';
 
 	// nouvelle section du Customizer.
-	$wp_customize->add_section(
+	$wp_customize->add_section( 
 		$section_id,
 		[
 			'panel' => $panel_id,

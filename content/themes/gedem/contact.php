@@ -13,8 +13,8 @@ Template Name: contact
 
 <section class="gedem_info">
         <div class="coordonne">
+            <h3 class="title_section_unerlined"><?php the_field( 'title_section' ); ?></h3>
             <div>
-                <h3><?php the_field( 'title_section' ); ?></h3>
                 <p><?php the_field( 'name_siege_social' ); ?></p>
                 <p><?php the_field( 'location_siege_social' ); ?></p>
                 <p><?php the_field( 'departement' ); ?></p>
@@ -22,8 +22,8 @@ Template Name: contact
             </div>
         </div> 
         <div class="syndicats">
-            <h3>Coordonnées des syndicats membres</h3>
-            <div id="mapid"><?php the_field( 'map' ); ?></div>
+            <h3 class="title_section_unerlined">Coordonnées des syndicats membres</h3>
+            <div id="mapid"><?php echo do_shortcode('[ultimate_maps id="1"]')?></div>
        </div>
     </section>
 

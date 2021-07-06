@@ -675,21 +675,21 @@ input[type="submit"] {
   flex-basis: 40%;
   padding-left: 50px; }
   .coordonne div {
-    line-height: 30px; }
+    line-height: 30px;
+    padding-top: 30px; }
     .coordonne div h3 {
-      font-size: 28px;
-      margin-bottom: 30px; }
+      font-size: 28px; }
 
 .syndicats {
-  line-height: 30px;
+  line-height: 40px;
   flex-basis: 60%; }
   .syndicats h3 {
     font-size: 28px;
-    margin-bottom: 50px;
     text-align: center; }
   .syndicats #mapid {
     width: 100%;
-    height: 550px; }
+    height: 550px;
+    margin-top: 50px; }
 
 @media screen and (max-width: 875px) {
   .contact_sct {
@@ -1478,14 +1478,14 @@ section {
   padding: 80px 80px 20px;
   width: 100%; }
 
-h3 {
+.title_section_unerlined {
   color: #1B3762;
   font-size: 30px;
   padding: 15px 0;
   display: inline-block;
   position: relative; }
 
-h3::after {
+.title_section_unerlined::after {
   content: '';
   position: absolute;
   width: 125px;

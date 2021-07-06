@@ -17,7 +17,7 @@ $partenaires_query = new WP_Query(
 ?>
 
 <section class="sct_partenaires">
-    <h3>Nos partenaires</h3>
+    <h3 class="title_section_unerlined">Nos partenaires</h3>
     <div class="all_partenaires">
     <?php
     if ( $partenaires_query->have_posts() ) :

@@ -6,6 +6,7 @@
  */
 
 require get_theme_file_path( 'inc/customizer/section-logos-theme.php' );
+require get_theme_file_path( 'inc/customizer/section-footer.php' );
 
 function gedem_customize_register( $wp_customize ) {
 	$panel_id = 'gedem';
@@ -21,6 +22,7 @@ function gedem_customize_register( $wp_customize ) {
 	);
 
 	gedem_customize_register_section_logos_theme( $wp_customize, $panel_id );
+	gedem_customize_register_section_footer( $wp_customize, $panel_id );
 
 }
 add_action( 'customize_register', 'gedem_customize_register' );

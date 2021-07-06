@@ -16,7 +16,7 @@ $timeline_query = new WP_Query(
 ?>
 
 <section class="dates">
-<h3>Les grandes dates</h3>
+<h3 class="title_section_unerlined">Les grandes dates</h3>
 <div class="timeline">
     <ol>
     <?php

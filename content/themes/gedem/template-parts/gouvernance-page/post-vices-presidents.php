@@ -17,7 +17,7 @@ $vice_presidence_query = new WP_Query(
 ?>
 
 <section class="sct-vice-presidence">
-    <h3>Vice-présidence</h3>
+    <h3 class="title_section_unerlined">Vice-présidence</h3>
     <div class="all_cards">
     <?php
     if ( $vice_presidence_query->have_posts() ) :

@@ -7,7 +7,7 @@
 ?>
     
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer_row">
             <div class="section_footer_img">
                 <div class="footer_logo">
@@ -27,8 +27,24 @@
             </div>
             <div class="footer_coord">
                 <div class="tkt">
-                    <p>01 64 83 58 60</p> 
-                    <a href="">ESPACE ÉLU</a><br>
+                    <?php 
+                    $contact_phone_number = get_theme_mod( 'gedem_footer_contact_phone_number' );
+                    if ( ! empty( $contact_phone_number ) ) : ?>
+                    <p><?php echo esc_html( $contact_phone_number ); ?></p> 
+                    <?php
+                    endif; ?>
+        
+                    <?php
+	        		if (isset( $_SESSION['id'] )) : ?>
+	        		    <a href="">Deconnexion</a>
+                    <?php
+	        		else : ?>
+	        		   <a href="">espace élu</a>
+	        		<?php
+	        		endif;
+	        		?>
+
+                    <br>
                     <a href="<?php echo trailingslashit( home_url() ) . 'mentions-legales'; ?>">Mentions légales</a>
                     <p>© 2021 GEDEM 77</p>
                 </div> 
