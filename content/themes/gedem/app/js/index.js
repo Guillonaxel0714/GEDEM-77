@@ -1,33 +1,31 @@
 // NAVBAR RESPONSIVE
 
-const navSlide = () => {
-  const burger = document.querySelector('.burger');
-  const nav = document.querySelector('.nav-links');
-  const navLinks = document.querySelectorAll('.nav-links li');
+const navbar = document.querySelector(".nav-bar");
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+const logoNav = document.querySelector(".logo_nav img");
 
-  if(undefined != nav){ 
-  
-    burger.addEventListener('click', ()=>{
-      nav.classList.toggle('nav-active');
-
-
-      //animation des links
-
-      navLinks.forEach((link, index) => {
-        if (link.style.animation) {
-          link.style.animation = '';
-        } else{
-          link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-        }
-      });
-
-      // animation burger
-      burger.classList.toggle('toggle');
-    });
+window.addEventListener('scroll', () => {
+  if(window.pageYOffset > 1){
+    navbar.classList.add('opac_nav');
+    logoNav.classList.add('img-reduc');
+  } else{
+    navbar.classList.remove('opac_nav');
+    logoNav.classList.remove('img-reduc');
   }
-}
+});
 
-navSlide();
+hamburger.addEventListener('click', ()=>{
+  //Animate Links
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
+
+  //Hamburger Animation
+  hamburger.classList.toggle("toggle");
+});
 
 
 // GO TO TOP
@@ -37,7 +35,7 @@ const hiddenButton = document.querySelector('.return-to-top');
 if(undefined != hiddenButton){ 
 
   window.addEventListener('scroll', () => {
-    if(window.pageYOffset > 200){
+    if(window.pageYOffset > 10){
       hiddenButton.classList.add('active');
     } else {
       hiddenButton.classList.remove('active');
@@ -283,13 +281,16 @@ new Typewriter(txtAnim, {
 .typeString('SYTRADEM')
 .pauseFor(1000)
 .deleteAll()
-.typeString('BEGEVAL')
+.typeString('BGV')
 .pauseFor(1000)
 .deleteAll()
 .typeString('SMITOM NORD')
 .pauseFor(1000)
 .deleteAll()
 .typeString('SIETREM')
+.pauseFor(1000)
+.deleteAll()
+.typeString('SMETOM')
 .pauseFor(1000)
 .deleteAll()
 

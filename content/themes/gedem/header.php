@@ -19,8 +19,8 @@
     <?php if ( is_front_page() ) : ?>
         <div class="img_home" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"> 
             <header class="header">
-                <nav>
-                    <div class="nav-img">
+                <nav class="nav-bar">
+                    <div class="logo_nav">
                         <?php
 	        		    	if ( is_front_page() ) : ?>
 	        		    		<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
@@ -33,21 +33,20 @@
 	        		    	endif;
 	        		    ?>
                     </div>
-
-                    <?php 
-                        wp_nav_menu(
-                            [
-                            'theme_location' => 'main-nav',
-                            'container'     => 'div',
-                            'menu_class'    => 'nav-links',
-                            ]
-                        ); 
-                    ?>
-                    <div class="burger">
+                    <div class="hamburger">
                         <div class="line1"></div>
                         <div class="line2"></div>
                         <div class="line3"></div>
                     </div>
+                    <?php 
+                        wp_nav_menu(
+                            [
+                            'theme_location' => 'main-nav',
+                            'container'     => '',
+                            'menu_class'    => 'nav-links',
+                            ]
+                        ); 
+                    ?>
                 </nav>
             </header> 
             <div class="title_home">
@@ -62,12 +61,11 @@
         <?php
         else : ?>
             <header class="header">
-                <nav>
-                    <div class="nav-img">
+                <nav class="nav-bar">
+                    <div class="logo_nav">
                         <?php
 	        		    	if ( is_front_page() ) : ?>
 	        		    		<img class="nav-logo" src="<?php echo get_theme_mod( 'gedem_logo_nav-menu' ); ?>" alt="logo GEDEM">
-
                             <?php
 	        		    	else : ?>
 	        		    		<a href="<?php echo home_url(); ?>">
@@ -77,19 +75,20 @@
 	        		    	endif;
 	        		    ?>
                     </div>
-
-                    <?php 
-                        wp_nav_menu([
-                            'theme_location' => 'header',
-                            'container' => false,
-                            'menu_class' => 'nav-links'
-                        ]) 
-                    ?>
-                    <div class="burger">
+                    <div class="hamburger">
                         <div class="line1"></div>
                         <div class="line2"></div>
                         <div class="line3"></div>
                     </div>
+                    <?php 
+                        wp_nav_menu(
+                            [
+                            'theme_location' => 'main-nav',
+                            'container'     => '',
+                            'menu_class'    => 'nav-links',
+                            ]
+                        ); 
+                    ?>
                 </nav>
             </header> 
         <?php

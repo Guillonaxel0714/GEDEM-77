@@ -15,7 +15,7 @@ $adherents_query = new WP_Query(
 );
 ?>
 
-<section class="members">
+<section class="members first_section">
     <h3 class="title_section_unerlined">Les membres</h3>
     <div id="cards"> 
     <?php

@@ -33,7 +33,6 @@
                     <p><?php echo esc_html( $contact_phone_number ); ?></p> 
                     <?php
                     endif; ?>
-        
                     <?php
 	        		if (isset( $_SESSION['id'] )) : ?>
 	        		    <a href="">Deconnexion</a>

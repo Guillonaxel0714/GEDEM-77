@@ -6,7 +6,7 @@
  */
 ?>
 
-<section class="gouvernance">
+<section class="gouvernance first_section">
     <h3 class="title_section_unerlined">La gouvernance</h3>
     <div class="img_intro">
         <span><?php the_field( 'title_intro' ); ?></span>

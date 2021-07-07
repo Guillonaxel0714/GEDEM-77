@@ -2,7 +2,7 @@
 
 <?php get_header() ?>
 
-<section>
+<section class="first_section">
 
     <?php if (have_posts()): ?>
     <div class="all_articles">
