@@ -83,9 +83,9 @@
                     <?php 
                         wp_nav_menu(
                             [
-                            'theme_location' => 'main-nav',
-                            'container'     => '',
-                            'menu_class'    => 'nav-links',
+                            'theme_location'    => 'main-nav',
+                            'container'         => '',
+                            'menu_class'        => 'nav-links',
                             ]
                         ); 
                     ?>
@@ -95,7 +95,7 @@
         endif;
     ?>
 
-    <a href="" class="return-to-top"><i class="fas fa-arrow-up"></i></a>
+    <a href="#" class="return-to-top"><i class="fas fa-arrow-up"></i></a>
 
     <main>
 

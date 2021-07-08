@@ -43,7 +43,7 @@
 		)
 	);
 
-    	// Adresse du footer : rue
+    // Adresse du footer : rue
 	$wp_customize->add_setting(
 		$section_id . '_contact_address1',
 		[
@@ -60,7 +60,24 @@
 		]
 	);
 
-    	// Numéros de téléphone du footer
+	// Adresse du footer : ville
+	$wp_customize->add_setting(
+		$section_id . '_contact_address2',
+		[
+			'default' => 'Vaux-le-Pénil - 77 000',
+		]
+	);
+
+	$wp_customize->add_control(
+		$section_id . '_contact_address2',
+		[
+			'section' => $section_id,
+			'type'    => 'text',
+			'label'   => 'Adresse postale : Ville', // Postal address: Street
+		]
+	);
+
+    // Numéros de téléphone du footer
 	$wp_customize->add_setting(
 		$section_id . '_contact_phone_number',
 		[

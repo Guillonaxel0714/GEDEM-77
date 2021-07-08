@@ -1,7 +1,6 @@
 @import '../abstracts/mixins';
 @import '../abstracts/variable';
 
-
 body{
     overflow-x: hidden;
 }
@@ -11,7 +10,7 @@ nav{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    // position: fixed;
     z-index: 10;
     transition: all 0.3s ease;
 }
@@ -43,7 +42,7 @@ nav{
     display: flex;
     list-style: none; 
     width: 100vw;
-    padding: 0 5vw;
+    padding-right: 5vw;
     justify-content: flex-end;
     align-items: center;
     text-transform: uppercase;
@@ -55,6 +54,7 @@ nav{
 }
 .nav-links li {
     position: relative;
+    text-align: center;
 }
 .nav-links li a::before {
     content: "";
@@ -85,10 +85,6 @@ nav{
 
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
-    nav{
-        position: fixed;
-        z-index: 3;
-    }
     .hamburger{
         display:block;
         position: absolute;

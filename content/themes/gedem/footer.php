@@ -33,6 +33,18 @@
                     <p><?php echo esc_html( $contact_phone_number ); ?></p> 
                     <?php
                     endif; ?>
+                    <?php 
+                    $contact_address1 = get_theme_mod( 'gedem_footer_contact_address1' );
+                    if ( ! empty( $contact_address1 ) ) : ?>
+                    <p><?php echo esc_html( $contact_address1 ); ?></p> 
+                    <?php
+                    endif; ?>
+                    <?php 
+                    $contact_address2 = get_theme_mod( 'gedem_footer_contact_address2' );
+                    if ( ! empty( $contact_address2 ) ) : ?>
+                    <p><?php echo esc_html( $contact_address2 ); ?></p> 
+                    <?php
+                    endif; ?>
                     <?php
 	        		if (isset( $_SESSION['id'] )) : ?>
 	        		    <a href="">Deconnexion</a>

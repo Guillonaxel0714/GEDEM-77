@@ -1232,7 +1232,6 @@ nav {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
-  position: fixed;
   z-index: 10;
   transition: all 0.3s ease; }
 
@@ -1260,7 +1259,7 @@ nav {
   display: flex;
   list-style: none;
   width: 100vw;
-  padding: 0 5vw;
+  padding-right: 5vw;
   justify-content: flex-end;
   align-items: center;
   text-transform: uppercase;
@@ -1271,7 +1270,8 @@ nav {
   padding: 0 2vw; }
 
 .nav-links li {
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
 .nav-links li a::before {
   content: "";
@@ -1299,9 +1299,6 @@ nav {
 
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
-  nav {
-    position: fixed;
-    z-index: 3; }
   .hamburger {
     display: block;
     position: absolute;
@@ -1519,9 +1516,6 @@ a {
 section {
   padding: 80px 80px 20px;
   width: 100%; }
-
-.first_section {
-  padding-top: 200px; }
 
 .title_section_unerlined {
   color: #1B3762;
