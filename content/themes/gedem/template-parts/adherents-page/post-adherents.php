@@ -37,7 +37,7 @@ $adherents_query = new WP_Query(
                     <p><?php the_field( 'desc_adherent' ); ?></p>
                     <p>Les équipements du syndicat sont composés de : </p>
                     <ol>
-                        <li><!-- boucler la liste des installations des syndicats --></li>
+                    <?php the_field( 'installation' ); ?>
                     </ol>
                 </div>
                 <div class="card-flap flap2">

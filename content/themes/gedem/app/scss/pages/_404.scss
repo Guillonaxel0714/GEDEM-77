@@ -1,0 +1,20 @@
+@import '../abstracts/mixins.scss';
+@import '../abstracts/variable.scss';
+
+.sct_404{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 0;
+    .lottie_404{
+        margin: 0 auto;
+        width: 500px;
+        height: 350px;
+        background-color: $main-color-blue;
+    }
+    .txt_404{
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+

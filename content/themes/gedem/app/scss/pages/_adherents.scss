@@ -2,8 +2,16 @@
 @import '../abstracts/variable.scss';
 
 ol{
-    list-style: circle;
+  list-style: circle;
 }
+
+// .list_install{
+//   list-style: circle !important;
+
+//   li{
+//     margin-top: 8px;
+//   }
+// }
 
 .members{
     background-color: #F2F4F6;
@@ -115,6 +123,13 @@ a.btn {
       padding: 0 15px 10px;
       position: relative;
       font-size: 14px;
+
+      ul{
+        list-style: circle;
+        li{
+          margin-top: 8px;
+        }
+      }
     }
   
     div.card-details-install {
