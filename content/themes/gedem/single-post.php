@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <section class="sct-single-article">
+    <section class="sct-single-article first_section">
         <h1 class="title_article"><?php the_title(); ?></h1>
         <div class="img_article">
             <img src="<?php the_post_thumbnail_url(); ?>" alt="photo de l'article">

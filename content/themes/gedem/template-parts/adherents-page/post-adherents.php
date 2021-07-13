@@ -42,7 +42,7 @@ $adherents_query = new WP_Query(
                 </div>
                 <div class="card-flap flap2">
                     <div class="card-actions">
-                        <a href="https://www.sirmotom.fr/" class="btn">Afficher</a>
+                        <a href="<?php the_field( 'site_link' ); ?>" class="btn">Visiter le site</a>
                     </div>
                 </div>
             </div>

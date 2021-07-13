@@ -46,7 +46,7 @@
         <div class="presidence_txt">
             <span><?php the_field( 'name_president' ); ?></span>
             <div>
-                <p>Présient du GEDEM 77</p>
+                <p>Président du GEDEM 77</p>
                 <p><?php the_field( 'poste_name' ); ?></p>
             </div>
         </div>

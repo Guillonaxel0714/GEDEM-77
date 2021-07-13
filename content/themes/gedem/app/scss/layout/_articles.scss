@@ -62,25 +62,28 @@ $color_grey_dark: #a2a2a2;
         a{
             color: white;
             &:before {
-                font-family: FontAwesome;
+                font-family: Font Awesome\ 5 Free;
+                font-weight: 900;
                 margin-right: 10px;
-                content: "\f133"; 
+                content: "\f02b"; 
             }
         }
 
         ul li {
             display: inline-block;
         }
-        .author:before {
-            font-family: FontAwesome;
+        .author::before {
+            font-family: Font Awesome\ 5 Free;
+            font-weight: 900;
             margin-right: 10px;
-            content: "\f007";
+            content: "\f007"; 
         }
 
-        .date:before {
-            font-family: FontAwesome;
+        .date::before {
+            font-family: Font Awesome\ 5 Free;
+            font-weight: 900;
             margin-right: 10px;
-            content: "\f133";
+            content: "\f133"; 
         }
     }
     .description {
@@ -105,8 +108,9 @@ $color_grey_dark: #a2a2a2;
                 display: inline-block;
 
                 &:after {
-                    content: "\f061";
-                    font-family: FontAwesome;
+                    font-family: Font Awesome\ 5 Free;
+                    font-weight: 900;
+                    content: "\f061"; 
                     margin-left: -10px;
                     opacity: 0;
                     vertical-align: middle;

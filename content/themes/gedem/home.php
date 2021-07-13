@@ -4,6 +4,12 @@
 
 <section class="first_section">
 
+    <form method="get" id="searchform" action="<?php echo esc_url( home_url( 'actualites' ) ); ?>">
+        <label for="s"></label>Catégories : </label>
+        <?php wp_dropdown_categories('show_option_all=Toutes les catégories' ); ?>
+        <input type="submit" class="submit" name="submit" id="searchsubmit" value="Rechercher" />
+    </form>
+
     <?php if (have_posts()): ?>
     <div class="all_articles">
     <?php while(have_posts()): the_post(); ?>
