@@ -8,6 +8,7 @@
 
     svg{
         width: 75%;
+        display: block;
     }
 
     span{
@@ -107,8 +108,6 @@
     }
 }
 
-
-
 .sct-vice-presidence{
     background: #F2F4F6;
     position: relative;
@@ -118,69 +117,75 @@
     }
 }
 
-.cards-vices-presidents{
-    display: flex;
-    justify-content: space-between;
-    padding: 130px 0;
-    text-align: center;
-}
-
 @media screen and (max-width: 768px) {
     .img_intro{
-        width: 600px;
+        width: 100%;
         margin: 50px auto;
         position: relative;
     
         svg{
             width: 75%;
         }
+        span{
+            position: absolute;
+            color: $secondary-color;
+            top: 25%;
+            left: 30%;
+            font-size: 28px;
+        }
+    
+        p{
+            position: absolute;
+            top: 38%;
+            left: 30%;
+            line-height: 25px;
+            font-size: 16px; 
+        }
     }
+
     .presidence{
         flex-direction: column;
     }
 
-}
+} 
 
 @media screen and (max-width: 575px){
     .img_intro{
-        span{
-            top: 80px;
-            left: 185px;
+        svg{
+            width: 100%;
         }
+        span{
+            left: 38%;
+            font-size: 22px;
+        }
+    
         p{
-            width: 200px;
-            font-size: 12px;
-            line-height: 22px;
-            top: 115px;
-            left: 185px;
+            left: 38%;
+            top: 35%;
+            font-size: 12px; 
         }
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 460px){
     .img_intro{
-        width: 500px;
-        margin: 50px auto;
-        position: relative;
-    
+        margin: 100px auto;
+        width: 100%;
         svg{
-            width: 75%;
+            display: none;
         }
-    
         span{
-            font-size: 20px;
-            top: 70px;
-            left: 130px;
+            position: relative;
+            left: 0;
+            font-size: 25px;
         }
     
         p{
-            font-size: 12px;
-            top: 100px;
-            left: 130px;
-            line-height: 20px;
-            width: 250px;
+            position: relative;
+            left: 0;
+            top: 25px;
+            font-size: 12px; 
         }
-    
     }
 }
 

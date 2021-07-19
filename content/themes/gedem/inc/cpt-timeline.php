@@ -40,6 +40,7 @@ function gedem_timeline_register_post_type(){
 		],
 		'has_archive'       => false,
 		'show_in_rest'      => true,
+		'capability_type'     => 'page',
    ];
 
 	// Permet d'ajouter un nouveau type de contenu

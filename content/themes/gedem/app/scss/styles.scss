@@ -57,4 +57,27 @@ section{
     @include title-section-after(125px, 3px, auto, 0, 0, 0);
 }
 
+@media only screen and (min-width: 1920px){
+    section{
+        padding: 200px 300px !important;
+    }
+}
 
+@media only screen and (max-width: 375px){
+    .title_section_unerlined{
+        @include title-section($main-color-blue, 24px, 15px 0);
+    }
+}
+
+
+// Contact-form-7 validation messages
+.wpcf7-response-output {
+    border-radius: 3px !important;
+    
+    background-color: transparentize( $color-white, .4) !important;
+    font-weight: 500 !important;
+    margin: 10px 100px !important;
+    padding: 10px !important;
+    text-align: center !important;
+    }
+   

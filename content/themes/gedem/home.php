@@ -4,10 +4,13 @@
 
 <section class="first_section">
 
-    <form method="get" id="searchform" action="<?php echo esc_url( home_url( 'actualites' ) ); ?>">
-        <label for="s"></label>Catégories : </label>
-        <?php wp_dropdown_categories('show_option_all=Toutes les catégories' ); ?>
-        <input type="submit" class="submit" name="submit" id="searchsubmit" value="Rechercher" />
+    <form method="get" class="filter_form" id="searchform" action="<?php echo esc_url( home_url( 'actualites' ) ); ?>">
+        <h3 class="title_section_unerlined">Tous les articles</h3>
+        <div class="filter_option">
+            <label for="s"></label>Filtrer : </label>
+            <?php wp_dropdown_categories('show_option_all=Toutes les catégories' ); ?>
+            <input type="submit" class="submit" name="submit" id="searchsubmit" value="Rechercher" />
+        </div>
     </form>
 
     <?php if (have_posts()): ?>
@@ -18,7 +21,10 @@
                 <div class="photo" style="background-image: url('<?php the_post_thumbnail_url(); ?>')"></div>
                 <ul class="details">
                     <li class="author"><?php the_author(); ?></li>
-                    <li><span class="category"><?php the_category(); ?></span></li>
+                    <?php
+                    $category = get_the_category();
+                    ?>
+                    <li><span class="category"><?php echo $category[0]->cat_name; ?></span></li>
                     <li class="date"><?php the_date(); ?></li>
                 </ul>
             </div>

@@ -69,7 +69,7 @@ header {
   margin: 50px 0; }
   .icon img {
     color: #1B3762;
-    margin-right: 50px; }
+    margin: 0 50px 0 0; }
   .icon p {
     width: 70%;
     line-height: 25px; }
@@ -91,7 +91,7 @@ header {
     width: 35%;
     min-width: 300px;
     text-align: center;
-    margin: 60px; }
+    margin: 50px 30px; }
     .objectifs .all_goals .goal .title_goal_1::before {
       content: '';
       position: absolute;
@@ -163,7 +163,7 @@ header {
 .dates {
   background-color: #F2F4F6; }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .img_home h1 {
     font-size: 45px;
     color: white; }
@@ -174,6 +174,8 @@ header {
   .icon {
     flex-wrap: wrap;
     align-items: stretch; }
+    .icon img {
+      margin: 15px 50px; }
     .icon p {
       width: 100%; } }
 
@@ -205,10 +207,6 @@ header {
     height: 5%;
     background-color: #A8C550; } }
 
-@media only screen and (min-width: 1920px) {
-  section {
-    padding: 80px 300px !important; } }
-
 .objectifs .all_goals .goal p:not(:last-child) {
   text-transform: uppercase;
   color: #1B3762;
@@ -219,24 +217,34 @@ header {
 
 .all_articles {
   display: flex;
-  justify-content: start;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.articles_nav {
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  margin: 50px 20px; }
+  padding: 50px 0; }
 
-select {
-  padding: 5px;
-  color: #1B3762;
-  border: 2px solid grey;
-  border-radius: 4px; }
+.filter_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .filter_form select {
+    padding: 5px;
+    color: #1B3762;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin: 0 10px; }
+  .filter_form .submit {
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: 2px solid #1B3762;
+    color: #1B3762;
+    transition: 0.5s; }
+    .filter_form .submit:hover {
+      color: white;
+      background-color: #1B3762;
+      transition: 0.5s; }
 
 .items-list {
   max-width: 90vw;
@@ -279,6 +287,21 @@ select {
       background: #a8c55059;
       font-weight: 600;
       border: 1px solid var(--primary); }
+
+.site__navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 50px 0; }
+  .site__navigation .site__navigation__prev, .site__navigation .site__navigation__next {
+    width: 50%;
+    line-height: 15px; }
+  .site__navigation .site__navigation__prev {
+    text-align: left; }
+  .site__navigation .site__navigation__next {
+    text-align: right; }
 
 .objectifs .all_goals .goal p:not(:last-child) {
   text-transform: uppercase;
@@ -478,7 +501,8 @@ div.card.show {
   margin: 50px auto;
   position: relative; }
   .img_intro svg {
-    width: 75%; }
+    width: 75%;
+    display: block; }
   .img_intro span {
     position: absolute;
     color: #A8C550;
@@ -553,50 +577,54 @@ div.card.show {
   .sct-vice-presidence h3 {
     margin: 0 auto; }
 
-.cards-vices-presidents {
-  display: flex;
-  justify-content: space-between;
-  padding: 130px 0;
-  text-align: center; }
-
 @media screen and (max-width: 768px) {
   .img_intro {
-    width: 600px;
-    margin: 50px auto;
-    position: relative; }
-    .img_intro svg {
-      width: 75%; }
-  .presidence {
-    flex-direction: column; } }
-
-@media screen and (max-width: 575px) {
-  .img_intro span {
-    top: 80px;
-    left: 185px; }
-  .img_intro p {
-    width: 200px;
-    font-size: 12px;
-    line-height: 22px;
-    top: 115px;
-    left: 185px; } }
-
-@media screen and (max-width: 376px) {
-  .img_intro {
-    width: 500px;
+    width: 100%;
     margin: 50px auto;
     position: relative; }
     .img_intro svg {
       width: 75%; }
     .img_intro span {
-      font-size: 20px;
-      top: 70px;
-      left: 130px; }
+      position: absolute;
+      color: #A8C550;
+      top: 25%;
+      left: 30%;
+      font-size: 28px; }
     .img_intro p {
-      font-size: 12px;
-      top: 100px;
-      left: 130px;
-      line-height: 20px;
-      width: 250px; } }
+      position: absolute;
+      top: 38%;
+      left: 30%;
+      line-height: 25px;
+      font-size: 16px; }
+  .presidence {
+    flex-direction: column; } }
+
+@media screen and (max-width: 575px) {
+  .img_intro svg {
+    width: 100%; }
+  .img_intro span {
+    left: 38%;
+    font-size: 22px; }
+  .img_intro p {
+    left: 38%;
+    top: 35%;
+    font-size: 12px; } }
+
+@media screen and (max-width: 460px) {
+  .img_intro {
+    margin: 100px auto;
+    width: 100%; }
+    .img_intro svg {
+      display: none; }
+    .img_intro span {
+      position: relative;
+      left: 0;
+      font-size: 25px; }
+    .img_intro p {
+      position: relative;
+      left: 0;
+      top: 25px;
+      font-size: 12px; } }
 
 .objectifs .all_goals .goal p:not(:last-child) {
   text-transform: uppercase;
@@ -658,7 +686,7 @@ label {
     margin: 0 auto;
     margin-top: 15px; }
 
-input[type="submit"] {
+.button-form input[type="submit"] {
   color: #1B3762;
   padding: 15px 30px;
   border: #1B3762 solid 2px;
@@ -666,8 +694,9 @@ input[type="submit"] {
   background-color: white;
   cursor: pointer;
   float: right;
-  margin-top: 10px; }
-  input[type="submit"]:hover {
+  margin-top: 10px;
+  transition: 0.5s; }
+  .button-form input[type="submit"]:hover {
     background-color: #1B3762;
     border: 2px solid white;
     transition: 0.5s;
@@ -814,16 +843,29 @@ input[type="submit"] {
 .sct_404 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 150px 0; }
+  flex-direction: column; }
+  .sct_404:first-child {
+    text-align: center;
+    color: #1B3762;
+    line-height: 30px;
+    font-size: 18px; }
+  .sct_404 .txt_404 {
+    font-size: 32px;
+    font-weight: bold; }
+  .sct_404 .animation_404 {
+    max-width: 120%;
+    margin: 0 auto; }
   .sct_404 .lottie_404 {
-    margin: 0 auto;
+    margin: 25px auto;
     width: 500px;
-    height: 350px;
-    background-color: #1B3762; }
+    height: 350px; }
   .sct_404 .txt_404 {
     margin: 10px auto;
     text-align: center; }
+  .sct_404 a {
+    color: #A8C550;
+    font-weight: bold;
+    font-size: 18px; }
 
 .objectifs .all_goals .goal p:not(:last-child) {
   text-transform: uppercase;
@@ -1027,7 +1069,7 @@ input[type="submit"] {
 .scroll_down {
   width: 30px;
   height: 50px;
-  margin: 0 auto;
+  margin: -100px auto;
   border: white solid 3px;
   border-radius: 15px;
   position: relative;
@@ -1078,7 +1120,7 @@ input[type="submit"] {
   position: relative;
   width: 275px;
   height: 350px;
-  margin: 15px 0;
+  margin: 15px 5px;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); }
@@ -1242,7 +1284,7 @@ footer {
       width: 100%;
       padding: 20px 0; }
     .footer_row .section_footer_img {
-      width: 300px;
+      width: 95%;
       padding: 20px 0; }
     .footer_row .footer_coord {
       width: 100%; } }
@@ -1292,7 +1334,7 @@ nav {
   display: flex;
   list-style: none;
   width: 100vw;
-  padding-right: 3vw;
+  margin-right: 3vw;
   justify-content: flex-end;
   align-items: center;
   text-transform: uppercase;
@@ -1300,7 +1342,7 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  padding: 0 1.5vw; }
+  margin: 0 1.5vw; }
 
 .nav-links li {
   position: relative;
@@ -1445,9 +1487,9 @@ nav {
     padding: 10px;
     width: 100%;
     font-size: .9rem; }
-    .blog-card .details a {
+    .blog-card .details .category {
       color: white; }
-      .blog-card .details a:before {
+      .blog-card .details .category:before {
         font-family: Font Awesome\ 5 Free;
         font-weight: 900;
         margin-right: 10px;
@@ -1578,3 +1620,23 @@ section {
   left: 0;
   background-color: #A8C550;
   z-index: 0; }
+
+@media only screen and (min-width: 1920px) {
+  section {
+    padding: 200px 300px !important; } }
+
+@media only screen and (max-width: 375px) {
+  .title_section_unerlined {
+    color: #1B3762;
+    font-size: 24px;
+    padding: 15px 0;
+    display: inline-block;
+    position: relative; } }
+
+.wpcf7-response-output {
+  border-radius: 3px !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500 !important;
+  margin: 10px 100px !important;
+  padding: 10px !important;
+  text-align: center !important; }

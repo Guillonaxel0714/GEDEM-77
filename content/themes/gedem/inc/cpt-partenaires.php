@@ -23,23 +23,24 @@ function gedem_partenaires_register_post_type(){
    ];
 
    $post_type_partenaires_args = [
-      'public'             => true,
-		'publicly_queryable' => false, // n'affiche pas de permalien/prévisualisation
-		'label'              => 'Partenaires',
-		'labels'             => $post_type_partenaires_labels,
-		'description'        => 'Liste des partenaires',
-		'menu_position'      => 4,
-		'menu_icon'          => 'dashicons-awards',
-      'hierarchical'       => false, // Se comporte comme les articles
-      'supports'           => [
+      'public'             		=> true,
+		'publicly_queryable' 	=> false, // n'affiche pas de permalien/prévisualisation
+		'label'              	=> 'Partenaires',
+		'labels'             	=> $post_type_partenaires_labels,
+		'description'        	=> 'Liste des partenaires',
+		'menu_position'      	=> 4,
+		'menu_icon'          	=> 'dashicons-awards',
+      'hierarchical'       		=> false, // Se comporte comme les articles
+      'supports'           		=> [
 			'title',
 			// 'editor',
 			'thumbnail',
 			'custom-fields',
 			'page-attributes',
 		],
-		'has_archive'       => false,
-		'show_in_rest'      => true,
+		'has_archive'       	=> false,
+		'show_in_rest'      	=> true,
+		'capability_type'     	=> 'page',
    ];
 
 	// Permet d'ajouter un nouveau type de contenu

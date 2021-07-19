@@ -5,16 +5,34 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 150px 0;
-    .lottie_404{
+
+    &:first-child{
+        text-align: center;
+        color: $main-color-blue;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .txt_404{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .animation_404{
+        max-width: 120%;
         margin: 0 auto;
+    }
+    .lottie_404{
+        margin: 25px auto;
         width: 500px;
         height: 350px;
-        background-color: $main-color-blue;
     }
     .txt_404{
         margin: 10px auto;
         text-align: center;
+    }
+    a{
+        color: $secondary-color;
+        font-weight: bold;
+        font-size: 18px;
     }
 }
 

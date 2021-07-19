@@ -63,24 +63,28 @@ label{
     }
 }
 
-
-input[type="submit"]{
-    color: $main-color-blue;
-    padding: 15px 30px;
-    border: $main-color-blue solid 2px;
-    border-radius: 8px;
-    background-color: white;
-    cursor: pointer;
-    float: right;
-    margin-top: 10px;
-
-    &:hover{
-        background-color: $main-color-blue;
-        border: 2px solid white;
+.button-form{
+    
+    input[type="submit"]{
+        color: $main-color-blue;
+        padding: 15px 30px;
+        border: $main-color-blue solid 2px;
+        border-radius: 8px;
+        background-color: white;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
         transition: 0.5s;
-        color: white;
+    
+        &:hover{
+            background-color: $main-color-blue;
+            border: 2px solid white;
+            transition: 0.5s;
+            color: white;
+        }
     }
 }
+
 
 .gedem_info{
     width: 100%;

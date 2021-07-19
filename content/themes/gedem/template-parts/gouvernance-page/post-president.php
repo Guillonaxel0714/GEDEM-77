@@ -7,11 +7,11 @@
 ?>
 
 <section class="gouvernance first_section">
-    <h3 class="title_section_unerlined">La gouvernance</h3>
+    <h3 class="title_section_unerlined">La gouvernance</h3> 
     <div class="img_intro">
         <span><?php the_field( 'title_intro' ); ?></span>
         <p><?php the_field( 'txt_intro' ); ?></p>
-        <svg version="1.1" id="carte_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg class="anim_logo" version="1.1" id="carte_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	        viewBox="0 0 1689.4 1383.2" style="enable-background:new 0 0 1689.4 1383.2;" xml:space="preserve">
             <style type="text/css">
                 .st0{display:none;}

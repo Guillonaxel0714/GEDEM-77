@@ -56,5 +56,10 @@ function load_scripts() {
         'leaflet',
         "https://maps.googleapis.com/maps/api/js?key=AIzaSyD6OyW5Nr-iIS6YMIovgPdClI132uDHIZ4"
     );
+
+    wp_enqueue_script(
+        'smooth_scroll_behavior_ios',
+        "https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    );
 }
 add_action('wp_enqueue_scripts', 'load_scripts' );

@@ -211,7 +211,6 @@ for (let index = 0; index < card.length; index++) {
 }
 
 function makeCardUp(e,index){
-  console.log(link)
   e.preventDefault();
   let isShowing = false;
   if (card[index].classList.contains("show")) {

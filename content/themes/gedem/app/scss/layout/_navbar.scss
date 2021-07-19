@@ -43,7 +43,7 @@ nav{
     display: flex;
     list-style: none; 
     width: 100vw;
-    padding-right: 3vw;
+    margin-right: 3vw;
     justify-content: flex-end;
     align-items: center;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ nav{
 }
 .nav-links li a{
     text-decoration: none;
-    padding: 0 1.5vw;
+    margin: 0 1.5vw;
 }
 .nav-links li {
     position: relative;

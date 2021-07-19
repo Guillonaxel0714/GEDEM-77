@@ -40,6 +40,7 @@ function gedem_adherents_register_post_type(){
 		],
 		'has_archive'       => false,
 		'show_in_rest'      => true,
+		'capability_type'     => 'page',
    	];
 
 	// Permet d'ajouter un nouveau type de contenu
@@ -47,6 +48,5 @@ function gedem_adherents_register_post_type(){
 		'adhérents',
 		$post_type_adherents_args
 	);
-
 }
 add_action( 'init', 'gedem_adherents_register_post_type' );
