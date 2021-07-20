@@ -63,7 +63,7 @@ section{
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 450px){
     .title_section_unerlined{
         @include title-section($main-color-blue, 24px, 15px 0);
     }
@@ -73,11 +73,10 @@ section{
 // Contact-form-7 validation messages
 .wpcf7-response-output {
     border-radius: 3px !important;
-    
     background-color: transparentize( $color-white, .4) !important;
     font-weight: 500 !important;
     margin: 10px 100px !important;
     padding: 10px !important;
     text-align: center !important;
-    }
+}
    

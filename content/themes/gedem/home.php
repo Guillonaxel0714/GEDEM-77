@@ -7,7 +7,7 @@
     <form method="get" class="filter_form" id="searchform" action="<?php echo esc_url( home_url( 'actualites' ) ); ?>">
         <h3 class="title_section_unerlined">Tous les articles</h3>
         <div class="filter_option">
-            <label for="s"></label>Filtrer : </label>
+            <label for="categories select">Filtrer :</label>
             <?php wp_dropdown_categories('show_option_all=Toutes les catégories' ); ?>
             <input type="submit" class="submit" name="submit" id="searchsubmit" value="Rechercher" />
         </div>

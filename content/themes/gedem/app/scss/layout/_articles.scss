@@ -9,7 +9,7 @@ $color_grey_dark: #a2a2a2;
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 20px auto;
     box-shadow: 0 3px 7px -1px rgba(#000, .1);
     background: $color_white;
     line-height: 1.4;
@@ -154,6 +154,7 @@ $color_grey_dark: #a2a2a2;
         flex-direction: row;
         max-width: 800px;
         height: 200px;
+        margin: 40px auto;
 
         &.row{
             max-width: 600px;

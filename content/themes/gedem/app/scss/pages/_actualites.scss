@@ -3,15 +3,12 @@
 
 .all_articles{
     @include flex-el(flex, space-around, row, center, wrap);
-    padding: 50px 0
+    padding: 15px 0
 }
 
 
 .filter_form{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex-el(flex, space-between, row, center, wrap);
 
     select{
         padding: 5px;
@@ -19,6 +16,10 @@
         border: 2px solid grey;
         border-radius: 4px;
         margin: 0 10px;
+    }
+    label{
+        text-transform: initial;
+        padding: 0;
     }
 
     .submit{
@@ -114,6 +115,15 @@
 
     .site__navigation__next{
         text-align: right;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .filter_form{
+        @include flex-el(flex, flex-start, column, flex-start, wrap);
+        .filter_option{
+            padding-top: 25px;
+        }
     }
 }
 

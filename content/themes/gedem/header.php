@@ -95,6 +95,7 @@
         endif;
     ?>
 
+    <a href="#" class="return-to-top"><i class="fas fa-arrow-up"></i></a>
 
     <main>
 

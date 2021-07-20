@@ -22,11 +22,11 @@
     }
 
     .img_article{
-        width: 40%;
+        width: 50%;
         margin: 100px auto 50px;
 
         img{
-            max-width: 100%;
+            width: 100%;
         }
     }
 
@@ -36,6 +36,41 @@
             text-align: justify;
             line-height: 25px;
             margin: 5px 0;
+        }
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .sct-single-article{
+
+        h1{
+            font-size: 25px;
+        }
+        .img_article{
+            width: 60%;
+            margin: 100px auto 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .sct-single-article{
+
+        .img_article{
+            width: 80%;
+            margin: 100px auto 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .sct-single-article{
+
+        .img_article{
+            width: 100%;
+            margin: 100px auto 50px;
         }
     }
 }

@@ -50,7 +50,7 @@
 	        		    <a href="">Deconnexion</a>
                     <?php
 	        		else : ?>
-	        		   <a href="">espace élu</a>
+	        		   <a href="<?php echo trailingslashit( home_url() ) . 'connexion'; ?>">Espace adhérents</a>
 	        		<?php
 	        		endif;
 	        		?>
