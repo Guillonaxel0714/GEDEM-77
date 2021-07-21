@@ -22,7 +22,7 @@
                     'menu_class' => 'footer_ul'
                 ]) 
                 ?>
-                <p>© 2021 GEDEM 77</p>
+                <span class="logout_button"><?php echo do_shortcode( '[wpmem_logout]Se déconnecter[/wpmem_logout]' ); ?></span>
             </div>
             
             <div class="footer_coord">
@@ -45,18 +45,9 @@
                     <p><?php echo esc_html( $contact_address2 ); ?></p> 
                     <?php
                     endif; ?>
-                    <?php
-	        		if (isset( $_SESSION['id'] )) : ?>
-	        		    <a href="">Deconnexion</a>
-                    <?php
-	        		else : ?>
-	        		   <a href="<?php echo trailingslashit( home_url() ) . 'connexion'; ?>">Espace adhérents</a>
-	        		<?php
-	        		endif;
-	        		?>
-
                     <br>
-                    <a href="<?php echo trailingslashit( home_url() ) . 'mentions-legales'; ?>">Mentions légales</a>
+                    <a href="<?php echo trailingslashit( home_url() ) . 'mentions-legales'; ?>">Mentions légales</a><br>
+                    <p>© 2021 GEDEM 77</p>
                 </div> 
             </div>
         </div>

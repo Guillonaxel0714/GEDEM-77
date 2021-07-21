@@ -24,6 +24,8 @@ require get_theme_file_path( 'inc/cpt-adherents.php' );
 
 require get_theme_file_path( 'inc/cpt-partenaires.php' );
 
+require get_theme_file_path( 'inc/cpt-comptes-rendus.php' );
+
 require get_theme_file_path( 'inc/wp-bo.php' );
 
 

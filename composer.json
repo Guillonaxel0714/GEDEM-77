@@ -26,8 +26,7 @@
         "wpackagist-plugin/ultimate-maps-by-supsystic":"1.2.*",
         "wpackagist-plugin/contact-form-7":"5.4.*",
         "wpackagist-plugin/svg-support":"2.3.*",
-        "wpackagist-plugin/the-events-calendar":"5.7.*",
-        "wpackagist-plugin/jetpack":"9.6.*"
+        "wpackagist-plugin/the-events-calendar":"5.8.*"
     },
     "extra": {
         "wordpress-install-dir": "wp",

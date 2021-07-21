@@ -1303,6 +1303,10 @@ footer {
     padding-top: 25px;
     font-size: 14px; }
 
+.logout_button {
+  text-transform: uppercase;
+  line-height: 30px; }
+
 .footer_coord {
   text-align: justify; }
   .footer_coord .tkt {
@@ -1332,7 +1336,7 @@ footer {
 body {
   overflow-x: hidden; }
 
-nav {
+.nav-bar {
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.404);
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -1673,3 +1677,6 @@ section {
   margin: 10px 100px !important;
   padding: 10px !important;
   text-align: center !important; }
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container, .tribe-events-single {
+  padding-top: 150px !important; }

@@ -12,7 +12,6 @@
 @import 'components/arrow-down.scss';
 @import 'components/cards_vice_presidence.scss';
 @import 'components/button.scss';
-@import 'components/test.scss';
 
 @import 'layout/footer.scss';
 @import 'layout/navbar.scss';
@@ -78,5 +77,9 @@ section{
     margin: 10px 100px !important;
     padding: 10px !important;
     text-align: center !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container, .tribe-events-single{
+    padding-top: 150px !important;
 }
    
